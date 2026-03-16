@@ -1,0 +1,2294 @@
+
+============================================================
+  Crawler started at 2026-03-11 22:46:28
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Waiting for page load (1s)...
+Found 8 subject folder(s): ['1. NLS', '2. KNCB', '3. TMQT', '4. DTQT', '5. GQTC', '6. SHTT', '7. STHD', 'Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư']
+
+Subject: 1. NLS
+
+  Session: 1. Sáng thứ Bảy 22.02
+    [SKIP] GIỚI THIỆU VỀ NGHỀ LUẬT SƯ VÀ KHUNG PHÁP LÝ VỀ NGHỀ LUẬT SƯ_19.02.2025.pdf (20 slides already captured)
+
+  Session: 2. Sáng Chủ Nhật 23.02
+    [SKIP] Lawyers CodeofCoduct_IBA-ABA-VBF.pdf (34 slides already captured)
+
+  Session: 3. Chiều Chủ Nhật 23.02
+    [SKIP] 2025-02-23 HVTP Code of conduct English law (Tony).pptx (185 slides already captured)
+
+  Session: 4. Thứ Bảy 01.03
+    [SKIP] Quan hệ Luật sư  CQTHTT - bản gửi học viên.pptx (23 slides already captured)
+    [SKIP] Tổng quan các Quy tắc Luật sư và khách hàng.pptx (17 slides already captured)
+    [SKIP] Tong quan, nhan thuc hien vu viec.pptx (61 slides already captured)
+
+  Session: 5. Chủ Nhật 02.03
+    [SKIP] Bai giang dao duc 3_3_2025A.pptx (30 slides already captured)
+
+  Session: 6. Thứ Bảy 08.03
+    [SKIP] 2. Lý thuyết_Các quy tắc đạo đức và ứng xử của luật sư với CQTHTT, CQNN.pptx (24 slides already captured)
+    [SKIP] 3. Tình huống_Ứng xử của luật sư với CQTHTT, CQNN.pptx (15 slides already captured)
+
+  Session: 7. Sáng Chủ Nhật 09.03
+    [SKIP] Bộ Quy tắc đạo đức và ứng xử nghề nghiệp + Xử lý vi phạm.pptx (4 slides already captured)
+
+Subject: 2. KNCB
+
+  Session: 01. Sáng thứ 7 15.3
+    [SKIP] 20250211_KNTVPL.pdf (40 slides already captured)
+
+  Session: 02. Chiều thứ 7 15.3
+    [SKIP] 2025_KNTXKH.pptx (126 slides already captured)
+    [SKIP] KNTVPL_2025.pptx (149 slides already captured)
+
+  Session: 03. Sáng Chủ Nhật 16.3
+    [SKIP] Bai tap tinh huong tiep xuc khach hang_YKVN_2025.pptx (8 slides already captured)
+
+  Session: 04. Chiều Chủ Nhật 16.3
+    [SKIP] 2025_KNNSCH.pptx (97 slides already captured)
+
+  Session: 05. Sáng thứ Bảy 22.03
+    [SKIP] HVTP_Skills of negotiation and signing_NHP_2025.pptx (58 slides already captured)
+
+  Session: 06. Chiều thứ Bảy 22.03
+    [SKIP] HVTP_Kỹ năng soạn thảo HĐDVPL_Vn_22032025.pdf (53 slides already captured)
+
+  Session: 07. Ngày Chủ Nhật 23.03
+    [SKIP] An le LS Khoa 8 TPHCM.pptx (116 slides already captured)
+    [SKIP] Ky nang tra cuu LSHN K8 TP HCM.pptx (193 slides already captured)
+
+  Session: 08. Ngày thứ Bảy 29.3
+    [SKIP] 1 HVTP Ky nang chung ve tu van.ppt (3 slides already captured)
+    [SKIP] 4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt (10 slides already captured)
+    [SKIP] 5 HVTP Nguy bien V 00 TTT 00.ppt (4 slides already captured)
+    [SKIP] HVTP Mo hinh IRAC V 00 TTT 01.ppt (17 slides already captured)
+
+  Session: 09. Sáng Chủ Nhật 30.3
+    [SKIP] 1_GS.TS. Do Van Dai - Vien dan an le.pptx (11 slides already captured)
+
+  Session: 10. Chiều Chủ Nhật 30.3
+    [SKIP] TS. Nguyen Huu Huyen - KY NANG TRA CUU.PPT (9 slides already captured)
+
+  Session: 11. Chiều thứ Bảy 12.4 và sáng Chủ Nhật 13.4
+    [SKIP] Legal writing - HTVP_Pdf_sent.pdf (39 slides already captured)
+    [SKIP] Legal Writing_HVTP_sent.pptx (143 slides already captured)
+
+  Session: 12. Chiều Chủ Nhật 13.4
+    [SKIP] 20241024_Legal Writing Basics.pptx (41 slides already captured)
+
+  Session: 13. Sáng thứ Bảy 19 4
+    [SKIP] 20250416_Legal Advisory Letters.pptx (51 slides already captured)
+
+  Session: 14. Chiều thứ Bảy 19 4 và sáng Chủ Nhật 20 4
+    [SKIP] “Chapter 15 - Parts of a Memo” in “Legal Writing Manual, 2nd Edition”.pdf (9 slides already captured)
+    [SKIP] JA -  (April 25) - Ky nang tu van phap ly (to be sent to JA) - LV.pptx (51 slides already captured)
+    [SKIP] WC Handout IRAC, CRAC, CREAC.revised 5.22 - law.columbia.edu.pdf (3 slides already captured)
+
+  Session: 15. Chiều Chủ Nhật 20 4
+    [SKIP] A1 Ky nang soan thao hop dong V01.pptx (161 slides already captured)
+
+  Session: 16. Ngày thứ Bảy 26 4
+    [SKIP] Contract Drafting Issues_Presentation_20252204.pdf (45 slides already captured)
+
+  Session: 17. Ngày Chủ Nhật 26 4
+    [SKIP] Drafting_international_commercial_contracts_handout (ICML_22_April_2025).pdf (138 slides already captured)
+
+  Session: 18. Ngày thứ Bảy 10 5 và sáng Chủ Nhật 11 5
+    [SKIP] 01. Harvard Principled Negotiation.V.01.PQT.00.HV.PDF (44 slides already captured)
+    [SKIP] Harvard Principled Negotiation.AF.HV.V.01.PQT.00-full.pdf (69 slides already captured)
+
+  Session: 19. Sáng thứ Bảy 17 5
+    [SKIP] 0 - LNT Lawyer Training - Contract Draft n Review - by Hong Bui_ 2024 (E).pptx (58 slides already captured)
+
+  Session: 20. Chiều thứ Bảy 17 5
+    [SKIP] Chieu T7_Thương hiệu Luật sư - BNH.pptx (17 slides already captured)
+
+  Session: 21. Ngày Chủ Nhật 18 5
+    [SKIP] 3. PP_HVTP_18052025_Work management Skill for Lawyer_NHP_00E00.pptx (78 slides already captured)
+    [SKIP] HVTP_Client work management only_18052025_VN.pptx (40 slides already captured)
+    [SKIP] PP_HVTP_18052025_Quang ba va tiep thi_Marketing.pptx (97 slides already captured)
+    [SKIP] PP_HVTP_18052025_Xây dựng và phát triển thương hiệu_Branding.pptx (113 slides already captured)
+
+Subject: 3. TMQT
+
+  Session: 1. Chủ Nhật 25.5
+    [SKIP] 1. Overview on ITBL Nov2024.pptx (23 slides already captured)
+    [SKIP] 2. WTO Basic Principles Nov2024.pptx (96 slides already captured)
+    [SKIP] 3. FTA basic principles Nov2024.pptx (34 slides already captured)
+
+  Session: 2. Sáng T7 31.5
+    [SKIP] Tong quan ve PVTM Giang hvtp final 2025.pptx (107 slides already captured)
+
+  Session: 3. Ngày Chủ Nhật 08.6
+    [SKIP] Ky nang tu van PL ve TMHH theo DUQT VN.pptx (132 slides already captured)
+
+  Session: 4. Chiều T7 và cả ngày CN 14-15.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 5. Chiều T7 và CN 21-22.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 6. Chiều CN 27.7
+    [SKIP] Ky nang tu van Bien phap thue quan + Thue toi thieu toan cau.pdf (54 slides already captured)
+
+  Session: 7. T7 và sáng CN 28-29.6
+    [SKIP] 00. Kỹ năng tư vấn pháp luật về MBHHQT.pdf (50 slides already captured)
+
+Subject: 4. DTQT
+
+  Session: 01. Cả ngày thứ Bảy 02 08
+    [SKIP] 250725. Kỹ năng tư vấn về pháp luật đầu tư quốc tế.pptx (34 slides already captured)
+
+  Session: 02. Cả ngày Chủ Nhật 03 08
+    [SKIP] Chu de 1_Dau tu nuoc ngoai tai VN_YKVN_20250729.pptx (54 slides already captured)
+    [SKIP] Chu de 2_Uu dai ho tro dau tu_YKVN_20250729.pptx (37 slides already captured)
+
+  Session: 03. Chiều thứ Bảy 09 08
+    [SKIP] HVTP_Kỹ năng TVPL về ưu đãi hỗ trợ ĐTNN tại VN_09082025.pptx (55 slides already captured)
+
+  Session: 04. Ngày Chủ Nhật 10 08
+    [SKIP] Cac hinh thuc dau tu nuoc ngoai tai VN (LDT 2020), 082025 1.pptx (75 slides already captured)
+
+  Session: 05. Ngày thứ Bảy 16 08
+    [SKIP] Thu tuc dau tu tai VN.pdf (82 slides already captured)
+
+  Session: 06. Sáng Chủ Nhật 17 08
+    [SKIP] Thu tuc dau tu nuoc ngoai - Bai giang cho lop dao tao luat su (2025) - N X Hien (Allens)(816548446.1).pdf (16 slides already captured)
+
+  Session: 07. Ngày thứ Bảy 23 08
+    [REDO] Hai Ha-Judicial Institution-Case study-20250820-vSent.pdf (only 2 slides, redoing)
+    Capturing [PDF]: Hai Ha-Judicial Institution-Case study-20250820-vSent.pdf
+    → Opening PDF: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Ge...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=49.5 (Light > 180)
+      [Refine] Crop: top=136, bottom=50, left=158, right=0
+    Auto-detected PDF region: 1642x983 @ (158,136) [refined]
+    PDF nav button 'Go to the next page.' @ (810,1130)
+    ⚠ PDF nav button not found, capture may not advance pages. Trying PageDown key.
+    Profile: pdf-viewer
+    Done: 4._DTQT/07._Ngày_thứ_Bảy_23_08/Hai_Ha-Judicial_Institution-Case_study-20250820-vSent
+    [SKIP] Hai Ha-MA skills - Hoc Vien Tu Phap -20250820.pdf (62 slides already captured)
+
+  Session: 08. Ngày Chủ Nhật 24 08
+    [SKIP] Hong Bui - MnA QnA - TMHN K8 HCM 24 Aug 2025.pptx (28 slides already captured)
+
+  Session: 09. Chiều thứ Bảy 06 09
+    [REDO] M&A Tax-HVTP-Final-6 Sep 25-sent.pptx (only 2 slides, redoing)
+    Capturing [PPTX]: M&A Tax-HVTP-Final-6 Sep 25-sent.pptx
+    [1] Getting GUID for: M&A Tax-HVTP-Final-6 Sep 25-sent.pptx
+    [1] GUID: 9db881e7-9af8-495c-a66f-7007a0a88e6e
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: 'M&A Tax-HVTP-Final-6 Sep 25-sent.pptx'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [7] Right-clicking at center (900,650) to ensure focus...
+    [7] Pressing Esc to close context menu...
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=227.4 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+    Done: 4._DTQT/09._Chiều_thứ_Bảy_06_09/M&A_Tax-HVTP-Final-6_Sep_25-sent
+
+  Session: 10. Ngày thứ Bảy 13 09
+    [SKIP] KN Tu van DTRNN - 11Sep25 - gui Lop.pdf (36 slides already captured)
+
+  Session: 11. Ngày Chủ Nhật 14 09
+    [SKIP] 20250914 - LNT - Bai giang Dau tu Quoc te.pdf (66 slides already captured)
+
+  Session: 12. Sáng thứ Bảy 04 10
+    [SKIP] Slide_CSHHL_HVTP_1Oct25.pdf (42 slides already captured)
+
+  Session: 13. Sáng Chủ Nhật 05 10
+    [SKIP] HVTP Training - Cross-border Lending and Taking Security (ENG) - 20 September 2025(569626104.1).pptx (27 slides already captured)
+
+Subject: 5. GQTC
+
+  Session: 01. Chiều T7 20.9 & Cả ngày CN 21.9
+    [SKIP] 20250920_HVTP_LTD_Presentation_Ky nang tranh tung cac vu an thuong mai dau tu co yeu to nuoc ngoai.pptx (18 slides already captured)
+
+  Session: 02. Thứ Bảy 27.9
+    [SKIP] RTLCT_Kỹ năng tham gia giải quyết tranh chấp thương mại đầu tư có yếu tố nước ngoài bằng hòa giải_27092025 (1)_FV.pdf (74 slides already captured)
+
+  Session: 03. Chiều CN 05.10
+    [SKIP] Lý thuyết và thực hành_Kỹ năng khởi kiện vụ án KDTM có YTNN_05.10.2025_Final.pptx (41 slides already captured)
+
+  Session: 04. Thứ Bảy 11.10
+    [SKIP] KỸ NĂNG KHỞI KIỆN VỤ ÁN KDTM CÓ YẾU TỐ NƯỚC NGOÀI (HVTP 10-2025).pdf (20 slides already captured)
+
+  Session: 05. Thứ Bảy 25.10
+    [SKIP] Lý thuyết và Thực hành_Kỹ năng NCHS & CBVB trong HĐTT đối với vụ án KDTM có YTNN_BAVN_Ls.Hoai_2025.pptx (34 slides already captured)
+
+  Session: 06. Sáng CN 26.10
+    [SKIP] Kỹ năng tham gia phien toa so tham GQVA KDTM co YTNN_Lý thuyết_26.10.2025_Huyen.pptx (20 slides already captured)
+
+  Session: 07. Chiều CN 26.10
+    [SKIP] 2025.10.23. KY NANG THAM GIA GIAI DOAN PHUC THAM (update).pptx (23 slides already captured)
+
+  Session: 08. Sáng CN 02.11
+    [SKIP] Giải quyết tranh chấp thương mại bằng Trọng tài tại Việt Nam [251102].pdf (65 slides already captured)
+
+  Session: 09. Chiều CN 02.11
+    [SKIP] HVTP Arbitration_Tony EPLegal.pptx (60 slides already captured)
+
+  Session: 10. Chiều T7 08.11
+    [SKIP] Kỹ Năng Luật sư Tham gia GQTC tại Trọng tài_FE.pdf (36 slides already captured)
+
+  Session: 11. Chiều T7 29.11
+    [SKIP] Investor-State Arbitration__Thủ tục.pdf (29 slides already captured)
+    [SKIP] Investor-State Arbitration_Lưu ý nội dung thực hành.pdf (23 slides already captured)
+
+  Session: 12. Chiều CN 30.11
+    [SKIP] EVFTA - CPTPP - VJEPA - ASEAN - RCEP_ComparativeReview - K4.pdf (17 slides already captured)
+    [SKIP] ISDS Arbitration EN.pdf (32 slides already captured)
+    [SKIP] ISDS Mediation EN.pdf (18 slides already captured)
+    [SKIP] ISDS Mediation VIE.pdf (21 slides already captured)
+
+  Session: 13. Cả ngày T7 và sáng CN 06-07.12
+    [SKIP] The-DSU.pdf (28 slides already captured)
+    [SKIP] Which-legal-instruments-can-be-invoked-in-a-dispute.pdf (47 slides already captured)
+
+Subject: 6. SHTT
+
+  Session: 1. Sáng T7 13.12
+    [SKIP] 251208 Tổng quan pháp luật về sở hữu trí tuệ.pdf (19 slides already captured)
+
+  Session: 2. Chiều T7 13.12 & Chiều CN 14.12
+    [SKIP] Seminar 1-IP Development.pptx (57 slides already captured)
+    [SKIP] Seminar 2-IP Ownership.pptx (39 slides already captured)
+
+  Session: 3. Cả ngày T7 & Sáng CN 20-21.12
+    [SKIP] Lich su va tong quan BQTG GCT print.pdf (68 slides already captured)
+    [SKIP] So huu cong nghiep print.pdf (47 slides already captured)
+
+  Session: 4. Chiều CN 21.12
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Xác lập khai thác thương mại hóa quyền SHTT (13Dec2025).pdf (11 slides already captured)
+
+  Session: 5. Chiều T7 27.12
+    [SKIP] Kỹ năng tư vấn pháp luật về thực thi quyền SHTT (1).pdf (39 slides already captured)
+
+  Session: 6. Sáng T7 10.01
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Thuc thi quyen SHTT (10Jan2026).pdf (79 slides already captured)
+
+Subject: 7. STHD
+
+  Session: 1. Ngay thu Bay 17 01
+    [SKIP] Buoi 1 - Kien thuc chung ve Luat HD.pdf (101 slides already captured)
+    [SKIP] Buoi 2 - Hieu luc dieu khoan họp dong co nguon goc common law.pdf (34 slides already captured)
+
+  Session: 2. Ngay Chu Nhat 18 01
+    [SKIP] JA - Contract drafting (Jan 2026).pptx (45 slides already captured)
+
+  Session: 3. Ngay thu Bay 24 01
+    [SKIP] A_ICML_advanced_contract_drafting_risk_allocation_handout_(ICML_24_Jan_2026).pdf (41 slides already captured)
+
+  Session: 4. Sang Chu Nhat 25 01
+    [SKIP] 2. (slide tham khao) VPL - HVTP - TTĐTLSHNQT - Kỹ năng  Quản lý Rủi Ro và soạn thảo Hợp Đồng 2024 (1).pdf (32 slides already captured)
+    [SKIP] VPL KNTVPL- chuẩn bị và soạn thảo HĐ TM và ĐT QT -HVTP_2026.pdf (28 slides already captured)
+
+  Session: 5. Ngay thu Bay 31 01
+    [SKIP] 260131 - Cấu trúc và thể thức HĐTMĐT quốc tế - (To Class).pdf (97 slides already captured)
+
+  Session: 6. Ngay Chu Nhat 01 02
+    [SKIP] 1.  HĐ TMai Đtư Qte  - Cấu trúc và Soạn thảo (Hong Bui) 1 Feb 2026.pptx (10 slides already captured)
+
+Subject: Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư
+  Found 2 file(s) directly in subject folder
+
+  (files directly in subject folder)
+    Capturing [PPTX]: 2025_ESG và luật sư_Nam.pptx
+    [1] Getting GUID for: 2025_ESG và luật sư_Nam.pptx
+    [1] GUID: 92643602-bc1a-4d0d-898b-6b1084463f4d
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: '2025_ESG và luật sư_Nam.pptx'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [7] Right-clicking at center (900,650) to ensure focus...
+    [7] Pressing Esc to close context menu...
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.4 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+    Done: Chuyên_đề_Chuyển_đổi_xanh_-_Vấn_đề_pháp_lý_đối_với_doanh_nghiệp_và_vai_trò_của_Luật_sư/2025_ESG_và_luật_sư_Nam
+    Capturing [PPTX]: EGLG_Chuyển đổi xanh [VIAC]_MrsAnnie_1.pptx
+    [1] Getting GUID for: EGLG_Chuyển đổi xanh [VIAC]_MrsAnnie_1.pptx
+    [1] GUID: d5ca6027-af79-43cd-b5d4-19c3d189626f
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: 'EGLG_Chuyển đổi xanh [VIAC]_MrsAnnie_1.pptx'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [7] Right-clicking at center (900,650) to ensure focus...
+    [7] Pressing Esc to close context menu...
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.5 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+    Done: Chuyên_đề_Chuyển_đổi_xanh_-_Vấn_đề_pháp_lý_đối_với_doanh_nghiệp_và_vai_trò_của_Luật_sư/EGLG_Chuyển_đổi_xanh_[VIAC]_MrsAnnie_1
+
+Crawl complete!
+
+Done! Check captures/ folder for results.
+
+============================================================
+  Crawler started at 2026-03-13 21:46:40
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Traceback (most recent call last):
+  File "/Users/trungnguyen/capture/crawler.py", line 2006, in <module>
+    main()
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/click/core.py", line 1485, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/click/core.py", line 1406, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/click/core.py", line 1269, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/click/core.py", line 824, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/crawler.py", line 1532, in main
+    crawl_root(page, url, state,
+  File "/Users/trungnguyen/capture/crawler.py", line 1411, in crawl_root
+    page.goto(root_url)
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9054, in goto
+    self._sync(
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Call log:
+  - navigating to "https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B", waiting until "load"
+
+
+============================================================
+  Crawler started at 2026-03-13 21:47:03
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Traceback (most recent call last):
+  File "/Users/trungnguyen/capture/crawler.py", line 2006, in <module>
+    main()
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/click/core.py", line 1485, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/click/core.py", line 1406, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/click/core.py", line 1269, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/click/core.py", line 824, in invoke
+    return callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/crawler.py", line 1532, in main
+    crawl_root(page, url, state,
+  File "/Users/trungnguyen/capture/crawler.py", line 1411, in crawl_root
+    page.goto(root_url)
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9054, in goto
+    self._sync(
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/trungnguyen/capture/.venv/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Call log:
+  - navigating to "https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B", waiting until "load"
+
+
+============================================================
+  Crawler started at 2026-03-13 21:48:32
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Waiting for page load (1s)...
+Found 8 subject folder(s): ['1. NLS', '2. KNCB', '3. TMQT', '4. DTQT', '5. GQTC', '6. SHTT', '7. STHD', 'Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư']
+
+Subject: 1. NLS
+
+  Session: 1. Sáng thứ Bảy 22.02
+    [SKIP] GIỚI THIỆU VỀ NGHỀ LUẬT SƯ VÀ KHUNG PHÁP LÝ VỀ NGHỀ LUẬT SƯ_19.02.2025.pdf (20 slides already captured)
+
+  Session: 2. Sáng Chủ Nhật 23.02
+    [SKIP] Lawyers CodeofCoduct_IBA-ABA-VBF.pdf (34 slides already captured)
+
+  Session: 3. Chiều Chủ Nhật 23.02
+    [SKIP] 2025-02-23 HVTP Code of conduct English law (Tony).pptx (185 slides already captured)
+
+  Session: 4. Thứ Bảy 01.03
+    [SKIP] Quan hệ Luật sư  CQTHTT - bản gửi học viên.pptx (23 slides already captured)
+    [SKIP] Tổng quan các Quy tắc Luật sư và khách hàng.pptx (17 slides already captured)
+    [SKIP] Tong quan, nhan thuc hien vu viec.pptx (61 slides already captured)
+
+  Session: 5. Chủ Nhật 02.03
+    [SKIP] Bai giang dao duc 3_3_2025A.pptx (30 slides already captured)
+
+  Session: 6. Thứ Bảy 08.03
+    [SKIP] 2. Lý thuyết_Các quy tắc đạo đức và ứng xử của luật sư với CQTHTT, CQNN.pptx (24 slides already captured)
+    [SKIP] 3. Tình huống_Ứng xử của luật sư với CQTHTT, CQNN.pptx (15 slides already captured)
+
+  Session: 7. Sáng Chủ Nhật 09.03
+    [SKIP] Bộ Quy tắc đạo đức và ứng xử nghề nghiệp + Xử lý vi phạm.pptx (4 slides already captured)
+
+Subject: 2. KNCB
+
+  Session: 01. Sáng thứ 7 15.3
+    [SKIP] 20250211_KNTVPL.pdf (40 slides already captured)
+
+  Session: 02. Chiều thứ 7 15.3
+    [SKIP] 2025_KNTXKH.pptx (126 slides already captured)
+    [SKIP] KNTVPL_2025.pptx (149 slides already captured)
+
+  Session: 03. Sáng Chủ Nhật 16.3
+    [SKIP] Bai tap tinh huong tiep xuc khach hang_YKVN_2025.pptx (8 slides already captured)
+
+  Session: 04. Chiều Chủ Nhật 16.3
+    [SKIP] 2025_KNNSCH.pptx (97 slides already captured)
+
+  Session: 05. Sáng thứ Bảy 22.03
+    [SKIP] HVTP_Skills of negotiation and signing_NHP_2025.pptx (58 slides already captured)
+
+  Session: 06. Chiều thứ Bảy 22.03
+    [SKIP] HVTP_Kỹ năng soạn thảo HĐDVPL_Vn_22032025.pdf (53 slides already captured)
+
+  Session: 07. Ngày Chủ Nhật 23.03
+    [SKIP] An le LS Khoa 8 TPHCM.pptx (116 slides already captured)
+    [SKIP] Ky nang tra cuu LSHN K8 TP HCM.pptx (193 slides already captured)
+
+  Session: 08. Ngày thứ Bảy 29.3
+    [SKIP] 1 HVTP Ky nang chung ve tu van.ppt (3 slides already captured)
+    [SKIP] 4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt (10 slides already captured)
+    [SKIP] 5 HVTP Nguy bien V 00 TTT 00.ppt (4 slides already captured)
+    [SKIP] HVTP Mo hinh IRAC V 00 TTT 01.ppt (17 slides already captured)
+
+  Session: 09. Sáng Chủ Nhật 30.3
+    No capturable files (PPTX/PDF) found.
+
+  Session: 10. Chiều Chủ Nhật 30.3
+    [SKIP] TS. Nguyen Huu Huyen - KY NANG TRA CUU.PPT (9 slides already captured)
+
+  Session: 11. Chiều thứ Bảy 12.4 và sáng Chủ Nhật 13.4
+    [SKIP] Legal writing - HTVP_Pdf_sent.pdf (39 slides already captured)
+    [SKIP] Legal Writing_HVTP_sent.pptx (143 slides already captured)
+
+  Session: 12. Chiều Chủ Nhật 13.4
+    [SKIP] 20241024_Legal Writing Basics.pptx (41 slides already captured)
+
+  Session: 13. Sáng thứ Bảy 19 4
+    [SKIP] 20250416_Legal Advisory Letters.pptx (51 slides already captured)
+
+  Session: 14. Chiều thứ Bảy 19 4 và sáng Chủ Nhật 20 4
+    [SKIP] “Chapter 15 - Parts of a Memo” in “Legal Writing Manual, 2nd Edition”.pdf (9 slides already captured)
+    [SKIP] JA -  (April 25) - Ky nang tu van phap ly (to be sent to JA) - LV.pptx (51 slides already captured)
+    [SKIP] WC Handout IRAC, CRAC, CREAC.revised 5.22 - law.columbia.edu.pdf (3 slides already captured)
+
+  Session: 15. Chiều Chủ Nhật 20 4
+    [SKIP] A1 Ky nang soan thao hop dong V01.pptx (161 slides already captured)
+
+  Session: 16. Ngày thứ Bảy 26 4
+    [SKIP] Contract Drafting Issues_Presentation_20252204.pdf (45 slides already captured)
+
+  Session: 17. Ngày Chủ Nhật 26 4
+    [SKIP] Drafting_international_commercial_contracts_handout (ICML_22_April_2025).pdf (138 slides already captured)
+
+  Session: 18. Ngày thứ Bảy 10 5 và sáng Chủ Nhật 11 5
+    [SKIP] 01. Harvard Principled Negotiation.V.01.PQT.00.HV.PDF (44 slides already captured)
+    [SKIP] Harvard Principled Negotiation.AF.HV.V.01.PQT.00-full.pdf (69 slides already captured)
+
+  Session: 19. Sáng thứ Bảy 17 5
+    [SKIP] 0 - LNT Lawyer Training - Contract Draft n Review - by Hong Bui_ 2024 (E).pptx (58 slides already captured)
+
+  Session: 20. Chiều thứ Bảy 17 5
+    [SKIP] Chieu T7_Thương hiệu Luật sư - BNH.pptx (17 slides already captured)
+
+  Session: 21. Ngày Chủ Nhật 18 5
+    [SKIP] 3. PP_HVTP_18052025_Work management Skill for Lawyer_NHP_00E00.pptx (78 slides already captured)
+    [SKIP] HVTP_Client work management only_18052025_VN.pptx (40 slides already captured)
+    [SKIP] PP_HVTP_18052025_Quang ba va tiep thi_Marketing.pptx (97 slides already captured)
+    [SKIP] PP_HVTP_18052025_Xây dựng và phát triển thương hiệu_Branding.pptx (113 slides already captured)
+
+Subject: 3. TMQT
+
+  Session: 1. Chủ Nhật 25.5
+    [SKIP] 1. Overview on ITBL Nov2024.pptx (23 slides already captured)
+    [SKIP] 2. WTO Basic Principles Nov2024.pptx (96 slides already captured)
+    [SKIP] 3. FTA basic principles Nov2024.pptx (34 slides already captured)
+
+  Session: 2. Sáng T7 31.5
+    [SKIP] Tong quan ve PVTM Giang hvtp final 2025.pptx (107 slides already captured)
+
+  Session: 3. Ngày Chủ Nhật 08.6
+    [SKIP] Ky nang tu van PL ve TMHH theo DUQT VN.pptx (132 slides already captured)
+
+  Session: 4. Chiều T7 và cả ngày CN 14-15.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 5. Chiều T7 và CN 21-22.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 6. Chiều CN 27.7
+    [SKIP] Ky nang tu van Bien phap thue quan + Thue toi thieu toan cau.pdf (54 slides already captured)
+
+  Session: 7. T7 và sáng CN 28-29.6
+    [SKIP] 00. Kỹ năng tư vấn pháp luật về MBHHQT.pdf (50 slides already captured)
+
+Subject: 4. DTQT
+
+  Session: 01. Cả ngày thứ Bảy 02 08
+    [SKIP] 250725. Kỹ năng tư vấn về pháp luật đầu tư quốc tế.pptx (34 slides already captured)
+
+  Session: 02. Cả ngày Chủ Nhật 03 08
+    [SKIP] Chu de 1_Dau tu nuoc ngoai tai VN_YKVN_20250729.pptx (54 slides already captured)
+    [SKIP] Chu de 2_Uu dai ho tro dau tu_YKVN_20250729.pptx (37 slides already captured)
+
+  Session: 03. Chiều thứ Bảy 09 08
+    [SKIP] HVTP_Kỹ năng TVPL về ưu đãi hỗ trợ ĐTNN tại VN_09082025.pptx (55 slides already captured)
+
+  Session: 04. Ngày Chủ Nhật 10 08
+    [SKIP] Cac hinh thuc dau tu nuoc ngoai tai VN (LDT 2020), 082025 1.pptx (75 slides already captured)
+
+  Session: 05. Ngày thứ Bảy 16 08
+    [SKIP] Thu tuc dau tu tai VN.pdf (82 slides already captured)
+
+  Session: 06. Sáng Chủ Nhật 17 08
+    [SKIP] Thu tuc dau tu nuoc ngoai - Bai giang cho lop dao tao luat su (2025) - N X Hien (Allens)(816548446.1).pdf (16 slides already captured)
+
+  Session: 07. Ngày thứ Bảy 23 08
+    [SKIP] Hai Ha-Judicial Institution-Case study-20250820-vSent.pdf (4 slides already captured)
+    [SKIP] Hai Ha-MA skills - Hoc Vien Tu Phap -20250820.pdf (62 slides already captured)
+
+  Session: 08. Ngày Chủ Nhật 24 08
+    [SKIP] Hong Bui - MnA QnA - TMHN K8 HCM 24 Aug 2025.pptx (28 slides already captured)
+
+  Session: 09. Chiều thứ Bảy 06 09
+    [REDO] M&A Tax-HVTP-Final-6 Sep 25-sent.pptx (only 2 slides, redoing)
+    Capturing [PPTX]: M&A Tax-HVTP-Final-6 Sep 25-sent.pptx
+    [1] Getting GUID for: M&A Tax-HVTP-Final-6 Sep 25-sent.pptx
+    [1] GUID: 9db881e7-9af8-495c-a66f-7007a0a88e6e
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: 'M&A Tax-HVTP-Final-6 Sep 25-sent.pptx'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Dismissed 'no permission to edit' dialog ✓
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [7] Right-clicking at center (900,650) to ensure focus...
+    [7] Pressing Esc to close context menu...
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=227.4 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+
+Aborted!
+
+============================================================
+  Crawler started at 2026-03-13 22:01:26
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Waiting for page load (1s)...
+Found 8 subject folder(s): ['1. NLS', '2. KNCB', '3. TMQT', '4. DTQT', '5. GQTC', '6. SHTT', '7. STHD', 'Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư']
+
+Subject: 1. NLS
+
+  Session: 1. Sáng thứ Bảy 22.02
+    [SKIP] GIỚI THIỆU VỀ NGHỀ LUẬT SƯ VÀ KHUNG PHÁP LÝ VỀ NGHỀ LUẬT SƯ_19.02.2025.pdf (20 slides already captured)
+
+  Session: 2. Sáng Chủ Nhật 23.02
+    [SKIP] Lawyers CodeofCoduct_IBA-ABA-VBF.pdf (34 slides already captured)
+
+  Session: 3. Chiều Chủ Nhật 23.02
+    [SKIP] 2025-02-23 HVTP Code of conduct English law (Tony).pptx (185 slides already captured)
+
+  Session: 4. Thứ Bảy 01.03
+    [SKIP] Quan hệ Luật sư  CQTHTT - bản gửi học viên.pptx (23 slides already captured)
+    [SKIP] Tổng quan các Quy tắc Luật sư và khách hàng.pptx (17 slides already captured)
+    [SKIP] Tong quan, nhan thuc hien vu viec.pptx (61 slides already captured)
+
+  Session: 5. Chủ Nhật 02.03
+    [SKIP] Bai giang dao duc 3_3_2025A.pptx (30 slides already captured)
+
+  Session: 6. Thứ Bảy 08.03
+    [SKIP] 2. Lý thuyết_Các quy tắc đạo đức và ứng xử của luật sư với CQTHTT, CQNN.pptx (24 slides already captured)
+    [SKIP] 3. Tình huống_Ứng xử của luật sư với CQTHTT, CQNN.pptx (15 slides already captured)
+
+  Session: 7. Sáng Chủ Nhật 09.03
+    [SKIP] Bộ Quy tắc đạo đức và ứng xử nghề nghiệp + Xử lý vi phạm.pptx (4 slides already captured)
+
+Subject: 2. KNCB
+
+  Session: 01. Sáng thứ 7 15.3
+    [SKIP] 20250211_KNTVPL.pdf (40 slides already captured)
+
+  Session: 02. Chiều thứ 7 15.3
+    [SKIP] 2025_KNTXKH.pptx (126 slides already captured)
+    [SKIP] KNTVPL_2025.pptx (149 slides already captured)
+
+  Session: 03. Sáng Chủ Nhật 16.3
+    [SKIP] Bai tap tinh huong tiep xuc khach hang_YKVN_2025.pptx (8 slides already captured)
+
+  Session: 04. Chiều Chủ Nhật 16.3
+    [SKIP] 2025_KNNSCH.pptx (97 slides already captured)
+
+  Session: 05. Sáng thứ Bảy 22.03
+    [SKIP] HVTP_Skills of negotiation and signing_NHP_2025.pptx (58 slides already captured)
+
+  Session: 06. Chiều thứ Bảy 22.03
+    [SKIP] HVTP_Kỹ năng soạn thảo HĐDVPL_Vn_22032025.pdf (53 slides already captured)
+
+  Session: 07. Ngày Chủ Nhật 23.03
+    [SKIP] An le LS Khoa 8 TPHCM.pptx (116 slides already captured)
+    [SKIP] Ky nang tra cuu LSHN K8 TP HCM.pptx (193 slides already captured)
+
+  Session: 08. Ngày thứ Bảy 29.3
+    [SKIP] 1 HVTP Ky nang chung ve tu van.ppt (3 slides already captured)
+    [SKIP] 4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt (10 slides already captured)
+    [SKIP] 5 HVTP Nguy bien V 00 TTT 00.ppt (4 slides already captured)
+    [SKIP] HVTP Mo hinh IRAC V 00 TTT 01.ppt (17 slides already captured)
+
+  Session: 09. Sáng Chủ Nhật 30.3
+    [SKIP] 1_GS.TS. Do Van Dai - Vien dan an le.pptx (11 slides already captured)
+
+  Session: 10. Chiều Chủ Nhật 30.3
+    [SKIP] TS. Nguyen Huu Huyen - KY NANG TRA CUU.PPT (9 slides already captured)
+
+  Session: 11. Chiều thứ Bảy 12.4 và sáng Chủ Nhật 13.4
+    [SKIP] Legal writing - HTVP_Pdf_sent.pdf (39 slides already captured)
+    [SKIP] Legal Writing_HVTP_sent.pptx (143 slides already captured)
+
+  Session: 12. Chiều Chủ Nhật 13.4
+    [SKIP] 20241024_Legal Writing Basics.pptx (41 slides already captured)
+
+  Session: 13. Sáng thứ Bảy 19 4
+    [SKIP] 20250416_Legal Advisory Letters.pptx (51 slides already captured)
+
+  Session: 14. Chiều thứ Bảy 19 4 và sáng Chủ Nhật 20 4
+    [SKIP] “Chapter 15 - Parts of a Memo” in “Legal Writing Manual, 2nd Edition”.pdf (9 slides already captured)
+    [SKIP] JA -  (April 25) - Ky nang tu van phap ly (to be sent to JA) - LV.pptx (51 slides already captured)
+    [SKIP] WC Handout IRAC, CRAC, CREAC.revised 5.22 - law.columbia.edu.pdf (3 slides already captured)
+
+  Session: 15. Chiều Chủ Nhật 20 4
+    [SKIP] A1 Ky nang soan thao hop dong V01.pptx (161 slides already captured)
+
+  Session: 16. Ngày thứ Bảy 26 4
+    [SKIP] Contract Drafting Issues_Presentation_20252204.pdf (45 slides already captured)
+
+  Session: 17. Ngày Chủ Nhật 26 4
+    [SKIP] Drafting_international_commercial_contracts_handout (ICML_22_April_2025).pdf (138 slides already captured)
+
+  Session: 18. Ngày thứ Bảy 10 5 và sáng Chủ Nhật 11 5
+    [SKIP] 01. Harvard Principled Negotiation.V.01.PQT.00.HV.PDF (44 slides already captured)
+    [SKIP] Harvard Principled Negotiation.AF.HV.V.01.PQT.00-full.pdf (69 slides already captured)
+
+  Session: 19. Sáng thứ Bảy 17 5
+    [SKIP] 0 - LNT Lawyer Training - Contract Draft n Review - by Hong Bui_ 2024 (E).pptx (58 slides already captured)
+
+  Session: 20. Chiều thứ Bảy 17 5
+    [SKIP] Chieu T7_Thương hiệu Luật sư - BNH.pptx (17 slides already captured)
+
+  Session: 21. Ngày Chủ Nhật 18 5
+    [SKIP] 3. PP_HVTP_18052025_Work management Skill for Lawyer_NHP_00E00.pptx (78 slides already captured)
+    [SKIP] HVTP_Client work management only_18052025_VN.pptx (40 slides already captured)
+    [SKIP] PP_HVTP_18052025_Quang ba va tiep thi_Marketing.pptx (97 slides already captured)
+    [SKIP] PP_HVTP_18052025_Xây dựng và phát triển thương hiệu_Branding.pptx (113 slides already captured)
+
+Subject: 3. TMQT
+
+  Session: 1. Chủ Nhật 25.5
+    [SKIP] 1. Overview on ITBL Nov2024.pptx (23 slides already captured)
+    [SKIP] 2. WTO Basic Principles Nov2024.pptx (96 slides already captured)
+    [SKIP] 3. FTA basic principles Nov2024.pptx (34 slides already captured)
+
+  Session: 2. Sáng T7 31.5
+    [SKIP] Tong quan ve PVTM Giang hvtp final 2025.pptx (107 slides already captured)
+
+  Session: 3. Ngày Chủ Nhật 08.6
+    [SKIP] Ky nang tu van PL ve TMHH theo DUQT VN.pptx (132 slides already captured)
+
+  Session: 4. Chiều T7 và cả ngày CN 14-15.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 5. Chiều T7 và CN 21-22.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 6. Chiều CN 27.7
+    [SKIP] Ky nang tu van Bien phap thue quan + Thue toi thieu toan cau.pdf (54 slides already captured)
+
+  Session: 7. T7 và sáng CN 28-29.6
+    [SKIP] 00. Kỹ năng tư vấn pháp luật về MBHHQT.pdf (50 slides already captured)
+
+Subject: 4. DTQT
+
+  Session: 01. Cả ngày thứ Bảy 02 08
+    [SKIP] 250725. Kỹ năng tư vấn về pháp luật đầu tư quốc tế.pptx (34 slides already captured)
+
+  Session: 02. Cả ngày Chủ Nhật 03 08
+    [SKIP] Chu de 1_Dau tu nuoc ngoai tai VN_YKVN_20250729.pptx (54 slides already captured)
+    [SKIP] Chu de 2_Uu dai ho tro dau tu_YKVN_20250729.pptx (37 slides already captured)
+
+  Session: 03. Chiều thứ Bảy 09 08
+    [SKIP] HVTP_Kỹ năng TVPL về ưu đãi hỗ trợ ĐTNN tại VN_09082025.pptx (55 slides already captured)
+
+  Session: 04. Ngày Chủ Nhật 10 08
+    [SKIP] Cac hinh thuc dau tu nuoc ngoai tai VN (LDT 2020), 082025 1.pptx (75 slides already captured)
+
+  Session: 05. Ngày thứ Bảy 16 08
+    [SKIP] Thu tuc dau tu tai VN.pdf (82 slides already captured)
+
+  Session: 06. Sáng Chủ Nhật 17 08
+    [SKIP] Thu tuc dau tu nuoc ngoai - Bai giang cho lop dao tao luat su (2025) - N X Hien (Allens)(816548446.1).pdf (16 slides already captured)
+
+  Session: 07. Ngày thứ Bảy 23 08
+    [SKIP] Hai Ha-Judicial Institution-Case study-20250820-vSent.pdf (4 slides already captured)
+    [SKIP] Hai Ha-MA skills - Hoc Vien Tu Phap -20250820.pdf (62 slides already captured)
+
+  Session: 08. Ngày Chủ Nhật 24 08
+    [SKIP] Hong Bui - MnA QnA - TMHN K8 HCM 24 Aug 2025.pptx (28 slides already captured)
+
+  Session: 09. Chiều thứ Bảy 06 09
+    Capturing [PPTX]: M&A Tax-HVTP-Final-6 Sep 25-sent.pptx
+    [1] Getting GUID for: M&A Tax-HVTP-Final-6 Sep 25-sent.pptx
+    [1] GUID: 9db881e7-9af8-495c-a66f-7007a0a88e6e
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: 'M&A Tax-HVTP-Final-6 Sep 25-sent.pptx'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Dismissed 'no permission to edit' dialog ✓
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [7] Clicking center (900,650) to give slideshow keyboard focus...
+    [7] Focus acquired, returned to slide 1 ✓
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=0.0 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=193, right=194
+    Auto-detected PPTX region: 1413x1141 @ (193,28) [refined]
+    Profile: pptx-preview
+    Done: 4._DTQT/09._Chiều_thứ_Bảy_06_09/M&A_Tax-HVTP-Final-6_Sep_25-sent
+
+  Session: 10. Ngày thứ Bảy 13 09
+    [SKIP] KN Tu van DTRNN - 11Sep25 - gui Lop.pdf (36 slides already captured)
+
+  Session: 11. Ngày Chủ Nhật 14 09
+    [SKIP] 20250914 - LNT - Bai giang Dau tu Quoc te.pdf (66 slides already captured)
+
+  Session: 12. Sáng thứ Bảy 04 10
+    [SKIP] Slide_CSHHL_HVTP_1Oct25.pdf (42 slides already captured)
+
+  Session: 13. Sáng Chủ Nhật 05 10
+    [SKIP] HVTP Training - Cross-border Lending and Taking Security (ENG) - 20 September 2025(569626104.1).pptx (27 slides already captured)
+
+Subject: 5. GQTC
+
+  Session: 01. Chiều T7 20.9 & Cả ngày CN 21.9
+    [SKIP] 20250920_HVTP_LTD_Presentation_Ky nang tranh tung cac vu an thuong mai dau tu co yeu to nuoc ngoai.pptx (18 slides already captured)
+
+  Session: 02. Thứ Bảy 27.9
+    [SKIP] RTLCT_Kỹ năng tham gia giải quyết tranh chấp thương mại đầu tư có yếu tố nước ngoài bằng hòa giải_27092025 (1)_FV.pdf (74 slides already captured)
+
+  Session: 03. Chiều CN 05.10
+    [SKIP] Lý thuyết và thực hành_Kỹ năng khởi kiện vụ án KDTM có YTNN_05.10.2025_Final.pptx (41 slides already captured)
+
+  Session: 04. Thứ Bảy 11.10
+    [SKIP] KỸ NĂNG KHỞI KIỆN VỤ ÁN KDTM CÓ YẾU TỐ NƯỚC NGOÀI (HVTP 10-2025).pdf (20 slides already captured)
+
+  Session: 05. Thứ Bảy 25.10
+    [SKIP] Lý thuyết và Thực hành_Kỹ năng NCHS & CBVB trong HĐTT đối với vụ án KDTM có YTNN_BAVN_Ls.Hoai_2025.pptx (34 slides already captured)
+
+  Session: 06. Sáng CN 26.10
+    [SKIP] Kỹ năng tham gia phien toa so tham GQVA KDTM co YTNN_Lý thuyết_26.10.2025_Huyen.pptx (20 slides already captured)
+
+  Session: 07. Chiều CN 26.10
+    [SKIP] 2025.10.23. KY NANG THAM GIA GIAI DOAN PHUC THAM (update).pptx (23 slides already captured)
+
+  Session: 08. Sáng CN 02.11
+    [SKIP] Giải quyết tranh chấp thương mại bằng Trọng tài tại Việt Nam [251102].pdf (65 slides already captured)
+
+  Session: 09. Chiều CN 02.11
+    [SKIP] HVTP Arbitration_Tony EPLegal.pptx (60 slides already captured)
+
+  Session: 10. Chiều T7 08.11
+    [SKIP] Kỹ Năng Luật sư Tham gia GQTC tại Trọng tài_FE.pdf (36 slides already captured)
+
+  Session: 11. Chiều T7 29.11
+    [SKIP] Investor-State Arbitration__Thủ tục.pdf (29 slides already captured)
+    [SKIP] Investor-State Arbitration_Lưu ý nội dung thực hành.pdf (23 slides already captured)
+
+  Session: 12. Chiều CN 30.11
+    [SKIP] EVFTA - CPTPP - VJEPA - ASEAN - RCEP_ComparativeReview - K4.pdf (17 slides already captured)
+    [SKIP] ISDS Arbitration EN.pdf (32 slides already captured)
+    [SKIP] ISDS Mediation EN.pdf (18 slides already captured)
+    [SKIP] ISDS Mediation VIE.pdf (21 slides already captured)
+
+  Session: 13. Cả ngày T7 và sáng CN 06-07.12
+    [SKIP] The-DSU.pdf (28 slides already captured)
+    [SKIP] Which-legal-instruments-can-be-invoked-in-a-dispute.pdf (47 slides already captured)
+
+Subject: 6. SHTT
+
+  Session: 1. Sáng T7 13.12
+    [SKIP] 251208 Tổng quan pháp luật về sở hữu trí tuệ.pdf (19 slides already captured)
+
+  Session: 2. Chiều T7 13.12 & Chiều CN 14.12
+    [SKIP] Seminar 1-IP Development.pptx (57 slides already captured)
+    [SKIP] Seminar 2-IP Ownership.pptx (39 slides already captured)
+
+  Session: 3. Cả ngày T7 & Sáng CN 20-21.12
+    [SKIP] Lich su va tong quan BQTG GCT print.pdf (68 slides already captured)
+    [SKIP] So huu cong nghiep print.pdf (47 slides already captured)
+
+  Session: 4. Chiều CN 21.12
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Xác lập khai thác thương mại hóa quyền SHTT (13Dec2025).pdf (11 slides already captured)
+
+  Session: 5. Chiều T7 27.12
+    [SKIP] Kỹ năng tư vấn pháp luật về thực thi quyền SHTT (1).pdf (39 slides already captured)
+
+  Session: 6. Sáng T7 10.01
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Thuc thi quyen SHTT (10Jan2026).pdf (79 slides already captured)
+
+Subject: 7. STHD
+
+  Session: 1. Ngay thu Bay 17 01
+    [SKIP] Buoi 1 - Kien thuc chung ve Luat HD.pdf (101 slides already captured)
+    [SKIP] Buoi 2 - Hieu luc dieu khoan họp dong co nguon goc common law.pdf (34 slides already captured)
+
+  Session: 2. Ngay Chu Nhat 18 01
+    [SKIP] JA - Contract drafting (Jan 2026).pptx (45 slides already captured)
+
+  Session: 3. Ngay thu Bay 24 01
+    [SKIP] A_ICML_advanced_contract_drafting_risk_allocation_handout_(ICML_24_Jan_2026).pdf (41 slides already captured)
+
+  Session: 4. Sang Chu Nhat 25 01
+    [SKIP] 2. (slide tham khao) VPL - HVTP - TTĐTLSHNQT - Kỹ năng  Quản lý Rủi Ro và soạn thảo Hợp Đồng 2024 (1).pdf (32 slides already captured)
+    [SKIP] VPL KNTVPL- chuẩn bị và soạn thảo HĐ TM và ĐT QT -HVTP_2026.pdf (28 slides already captured)
+
+  Session: 5. Ngay thu Bay 31 01
+    [SKIP] 260131 - Cấu trúc và thể thức HĐTMĐT quốc tế - (To Class).pdf (97 slides already captured)
+
+  Session: 6. Ngay Chu Nhat 01 02
+    [SKIP] 1.  HĐ TMai Đtư Qte  - Cấu trúc và Soạn thảo (Hong Bui) 1 Feb 2026.pptx (10 slides already captured)
+
+Subject: Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư
+  Found 2 file(s) directly in subject folder
+
+  (files directly in subject folder)
+    Capturing [PPTX]: 2025_ESG và luật sư_Nam.pptx
+    [1] Getting GUID for: 2025_ESG và luật sư_Nam.pptx
+    [1] GUID: 92643602-bc1a-4d0d-898b-6b1084463f4d
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: '2025_ESG và luật sư_Nam.pptx'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [7] Clicking center (900,650) to give slideshow keyboard focus...
+    [7] Focus acquired, returned to slide 1 ✓
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=199.9 (Light > 180)
+      [Refine] No bright content found
+    Auto-detected PPTX region: 1800x1169 @ (0,0) [viewport]
+    Profile: pptx-preview
+    Done: Chuyên_đề_Chuyển_đổi_xanh_-_Vấn_đề_pháp_lý_đối_với_doanh_nghiệp_và_vai_trò_của_Luật_sư/2025_ESG_và_luật_sư_Nam
+    Capturing [PPTX]: EGLG_Chuyển đổi xanh [VIAC]_MrsAnnie_1.pptx
+    [1] Getting GUID for: EGLG_Chuyển đổi xanh [VIAC]_MrsAnnie_1.pptx
+    [1] GUID: d5ca6027-af79-43cd-b5d4-19c3d189626f
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: 'EGLG_Chuyển đổi xanh [VIAC]_MrsAnnie_1.pptx'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [7] Clicking center (900,650) to give slideshow keyboard focus...
+    [7] Focus acquired, returned to slide 1 ✓
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=170.3 (Light > 180)
+      [Refine] Crop: top=0, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1169 @ (0,0) [viewport]
+    Profile: pptx-preview
+    Done: Chuyên_đề_Chuyển_đổi_xanh_-_Vấn_đề_pháp_lý_đối_với_doanh_nghiệp_và_vai_trò_của_Luật_sư/EGLG_Chuyển_đổi_xanh_[VIAC]_MrsAnnie_1
+
+Crawl complete!
+
+Done! Check captures/ folder for results.
+
+============================================================
+  Crawler started at 2026-03-13 22:33:09
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Waiting for page load (1s)...
+Found 8 subject folder(s): ['1. NLS', '2. KNCB', '3. TMQT', '4. DTQT', '5. GQTC', '6. SHTT', '7. STHD', 'Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư']
+
+Subject: 1. NLS
+
+  Session: 1. Sáng thứ Bảy 22.02
+    [SKIP] GIỚI THIỆU VỀ NGHỀ LUẬT SƯ VÀ KHUNG PHÁP LÝ VỀ NGHỀ LUẬT SƯ_19.02.2025.pdf (20 slides already captured)
+
+  Session: 2. Sáng Chủ Nhật 23.02
+    [SKIP] Lawyers CodeofCoduct_IBA-ABA-VBF.pdf (34 slides already captured)
+
+  Session: 3. Chiều Chủ Nhật 23.02
+    [SKIP] 2025-02-23 HVTP Code of conduct English law (Tony).pptx (185 slides already captured)
+
+  Session: 4. Thứ Bảy 01.03
+    [SKIP] Quan hệ Luật sư  CQTHTT - bản gửi học viên.pptx (23 slides already captured)
+    [SKIP] Tổng quan các Quy tắc Luật sư và khách hàng.pptx (17 slides already captured)
+    [SKIP] Tong quan, nhan thuc hien vu viec.pptx (61 slides already captured)
+
+  Session: 5. Chủ Nhật 02.03
+    [SKIP] Bai giang dao duc 3_3_2025A.pptx (30 slides already captured)
+
+  Session: 6. Thứ Bảy 08.03
+    [SKIP] 2. Lý thuyết_Các quy tắc đạo đức và ứng xử của luật sư với CQTHTT, CQNN.pptx (24 slides already captured)
+    [SKIP] 3. Tình huống_Ứng xử của luật sư với CQTHTT, CQNN.pptx (15 slides already captured)
+
+  Session: 7. Sáng Chủ Nhật 09.03
+    [SKIP] Bộ Quy tắc đạo đức và ứng xử nghề nghiệp + Xử lý vi phạm.pptx (4 slides already captured)
+
+Subject: 2. KNCB
+
+  Session: 01. Sáng thứ 7 15.3
+    [SKIP] 20250211_KNTVPL.pdf (40 slides already captured)
+
+  Session: 02. Chiều thứ 7 15.3
+    [SKIP] 2025_KNTXKH.pptx (126 slides already captured)
+    [SKIP] KNTVPL_2025.pptx (149 slides already captured)
+
+  Session: 03. Sáng Chủ Nhật 16.3
+    [SKIP] Bai tap tinh huong tiep xuc khach hang_YKVN_2025.pptx (8 slides already captured)
+
+  Session: 04. Chiều Chủ Nhật 16.3
+    [SKIP] 2025_KNNSCH.pptx (97 slides already captured)
+
+  Session: 05. Sáng thứ Bảy 22.03
+    [SKIP] HVTP_Skills of negotiation and signing_NHP_2025.pptx (58 slides already captured)
+
+  Session: 06. Chiều thứ Bảy 22.03
+    [SKIP] HVTP_Kỹ năng soạn thảo HĐDVPL_Vn_22032025.pdf (53 slides already captured)
+
+  Session: 07. Ngày Chủ Nhật 23.03
+    [SKIP] An le LS Khoa 8 TPHCM.pptx (116 slides already captured)
+    [SKIP] Ky nang tra cuu LSHN K8 TP HCM.pptx (193 slides already captured)
+
+  Session: 08. Ngày thứ Bảy 29.3
+    Capturing [PPT]: 1 HVTP Ky nang chung ve tu van.ppt
+    [1] Getting GUID for: 1 HVTP Ky nang chung ve tu van.ppt
+    [1] GUID: c8d7dfb3-8587-4cdb-a269-9b4969c34bd9
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: '1 HVTP Ky nang chung ve tu van.ppt'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Dismissed 'no permission to edit' dialog ✓
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button enabled after right-click + 9s ✓
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [6]   Dismissed late dialog at t=0.0s — re-activating Chrome
+    [7] Clicking center (900,650) to give slideshow keyboard focus...
+    [7] Focus acquired, returned to slide 1 ✓
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.3 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+
+Aborted!
+
+============================================================
+  Crawler started at 2026-03-13 22:39:45
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Waiting for page load (1s)...
+Found 8 subject folder(s): ['1. NLS', '2. KNCB', '3. TMQT', '4. DTQT', '5. GQTC', '6. SHTT', '7. STHD', 'Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư']
+
+Subject: 1. NLS
+
+  Session: 1. Sáng thứ Bảy 22.02
+    [SKIP] GIỚI THIỆU VỀ NGHỀ LUẬT SƯ VÀ KHUNG PHÁP LÝ VỀ NGHỀ LUẬT SƯ_19.02.2025.pdf (20 slides already captured)
+
+  Session: 2. Sáng Chủ Nhật 23.02
+    [SKIP] Lawyers CodeofCoduct_IBA-ABA-VBF.pdf (34 slides already captured)
+
+  Session: 3. Chiều Chủ Nhật 23.02
+    [SKIP] 2025-02-23 HVTP Code of conduct English law (Tony).pptx (185 slides already captured)
+
+  Session: 4. Thứ Bảy 01.03
+    [SKIP] Quan hệ Luật sư  CQTHTT - bản gửi học viên.pptx (23 slides already captured)
+    [SKIP] Tổng quan các Quy tắc Luật sư và khách hàng.pptx (17 slides already captured)
+    [SKIP] Tong quan, nhan thuc hien vu viec.pptx (61 slides already captured)
+
+  Session: 5. Chủ Nhật 02.03
+    [SKIP] Bai giang dao duc 3_3_2025A.pptx (30 slides already captured)
+
+  Session: 6. Thứ Bảy 08.03
+    [SKIP] 2. Lý thuyết_Các quy tắc đạo đức và ứng xử của luật sư với CQTHTT, CQNN.pptx (24 slides already captured)
+    [SKIP] 3. Tình huống_Ứng xử của luật sư với CQTHTT, CQNN.pptx (15 slides already captured)
+
+  Session: 7. Sáng Chủ Nhật 09.03
+    [SKIP] Bộ Quy tắc đạo đức và ứng xử nghề nghiệp + Xử lý vi phạm.pptx (4 slides already captured)
+
+Subject: 2. KNCB
+
+  Session: 01. Sáng thứ 7 15.3
+    [SKIP] 20250211_KNTVPL.pdf (40 slides already captured)
+
+  Session: 02. Chiều thứ 7 15.3
+    [SKIP] 2025_KNTXKH.pptx (126 slides already captured)
+    [SKIP] KNTVPL_2025.pptx (149 slides already captured)
+
+  Session: 03. Sáng Chủ Nhật 16.3
+    [SKIP] Bai tap tinh huong tiep xuc khach hang_YKVN_2025.pptx (8 slides already captured)
+
+  Session: 04. Chiều Chủ Nhật 16.3
+    [SKIP] 2025_KNNSCH.pptx (97 slides already captured)
+
+  Session: 05. Sáng thứ Bảy 22.03
+    [SKIP] HVTP_Skills of negotiation and signing_NHP_2025.pptx (58 slides already captured)
+
+  Session: 06. Chiều thứ Bảy 22.03
+    [SKIP] HVTP_Kỹ năng soạn thảo HĐDVPL_Vn_22032025.pdf (53 slides already captured)
+
+  Session: 07. Ngày Chủ Nhật 23.03
+    [SKIP] An le LS Khoa 8 TPHCM.pptx (116 slides already captured)
+    [SKIP] Ky nang tra cuu LSHN K8 TP HCM.pptx (193 slides already captured)
+
+  Session: 08. Ngày thứ Bảy 29.3
+    Capturing [PPT]: 1 HVTP Ky nang chung ve tu van.ppt
+    [1] Getting GUID for: 1 HVTP Ky nang chung ve tu van.ppt
+    [1] GUID: c8d7dfb3-8587-4cdb-a269-9b4969c34bd9
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: '1 HVTP Ky nang chung ve tu van.ppt'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Dismissed 'no permission to edit' dialog ✓
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button still disabled — falling back to editor mode capture
+    [Editor Mode] Capturing slides from editor view (Down arrow navigation)
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.3 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+    Done: 2._KNCB/08._Ngày_thứ_Bảy_29.3/1_HVTP_Ky_nang_chung_ve_tu_van
+    Capturing [PPT]: 4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt
+    [1] Getting GUID for: 4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt
+    [1] GUID: ded9dcc0-6393-42fc-af2b-a19a678e6095
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: '4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button still disabled — falling back to editor mode capture
+    [Editor Mode] Capturing slides from editor view (Down arrow navigation)
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.3 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+    Done: 2._KNCB/08._Ngày_thứ_Bảy_29.3/4_HVTP_Logic_trong_suy_luan_phap_ly_V_00_TTT_00
+    Capturing [PPT]: 5 HVTP Nguy bien V 00 TTT 00.ppt
+    [1] Getting GUID for: 5 HVTP Nguy bien V 00 TTT 00.ppt
+    [1] GUID: afc8a990-3baa-44ec-834b-979407fd7955
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: '5 HVTP Nguy bien V 00 TTT 00.ppt'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button still disabled — falling back to editor mode capture
+    [Editor Mode] Capturing slides from editor view (Down arrow navigation)
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.3 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+    Done: 2._KNCB/08._Ngày_thứ_Bảy_29.3/5_HVTP_Nguy_bien_V_00_TTT_00
+    Capturing [PPT]: HVTP Mo hinh IRAC V 00 TTT 01.ppt
+    [1] Getting GUID for: HVTP Mo hinh IRAC V 00 TTT 01.ppt
+    [1] GUID: fda179cb-d772-440a-aeeb-afb5166e89c3
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: 'HVTP Mo hinh IRAC V 00 TTT 01.ppt'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button still disabled — falling back to editor mode capture
+    [Editor Mode] Capturing slides from editor view (Down arrow navigation)
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.3 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+    Done: 2._KNCB/08._Ngày_thứ_Bảy_29.3/HVTP_Mo_hinh_IRAC_V_00_TTT_01
+
+  Session: 09. Sáng Chủ Nhật 30.3
+    [SKIP] 1_GS.TS. Do Van Dai - Vien dan an le.pptx (11 slides already captured)
+
+  Session: 10. Chiều Chủ Nhật 30.3
+    [SKIP] TS. Nguyen Huu Huyen - KY NANG TRA CUU.PPT (9 slides already captured)
+
+  Session: 11. Chiều thứ Bảy 12.4 và sáng Chủ Nhật 13.4
+    [SKIP] Legal writing - HTVP_Pdf_sent.pdf (39 slides already captured)
+    [SKIP] Legal Writing_HVTP_sent.pptx (143 slides already captured)
+
+  Session: 12. Chiều Chủ Nhật 13.4
+    [SKIP] 20241024_Legal Writing Basics.pptx (41 slides already captured)
+
+  Session: 13. Sáng thứ Bảy 19 4
+    [SKIP] 20250416_Legal Advisory Letters.pptx (51 slides already captured)
+
+  Session: 14. Chiều thứ Bảy 19 4 và sáng Chủ Nhật 20 4
+    [SKIP] “Chapter 15 - Parts of a Memo” in “Legal Writing Manual, 2nd Edition”.pdf (9 slides already captured)
+    [SKIP] JA -  (April 25) - Ky nang tu van phap ly (to be sent to JA) - LV.pptx (51 slides already captured)
+    [SKIP] WC Handout IRAC, CRAC, CREAC.revised 5.22 - law.columbia.edu.pdf (3 slides already captured)
+
+  Session: 15. Chiều Chủ Nhật 20 4
+    [SKIP] A1 Ky nang soan thao hop dong V01.pptx (161 slides already captured)
+
+  Session: 16. Ngày thứ Bảy 26 4
+    [SKIP] Contract Drafting Issues_Presentation_20252204.pdf (45 slides already captured)
+
+  Session: 17. Ngày Chủ Nhật 26 4
+    [SKIP] Drafting_international_commercial_contracts_handout (ICML_22_April_2025).pdf (138 slides already captured)
+
+  Session: 18. Ngày thứ Bảy 10 5 và sáng Chủ Nhật 11 5
+    [SKIP] 01. Harvard Principled Negotiation.V.01.PQT.00.HV.PDF (44 slides already captured)
+    [SKIP] Harvard Principled Negotiation.AF.HV.V.01.PQT.00-full.pdf (69 slides already captured)
+
+  Session: 19. Sáng thứ Bảy 17 5
+    [SKIP] 0 - LNT Lawyer Training - Contract Draft n Review - by Hong Bui_ 2024 (E).pptx (58 slides already captured)
+
+  Session: 20. Chiều thứ Bảy 17 5
+    [SKIP] Chieu T7_Thương hiệu Luật sư - BNH.pptx (17 slides already captured)
+
+  Session: 21. Ngày Chủ Nhật 18 5
+    [SKIP] 3. PP_HVTP_18052025_Work management Skill for Lawyer_NHP_00E00.pptx (78 slides already captured)
+    [SKIP] HVTP_Client work management only_18052025_VN.pptx (40 slides already captured)
+    [SKIP] PP_HVTP_18052025_Quang ba va tiep thi_Marketing.pptx (97 slides already captured)
+    [SKIP] PP_HVTP_18052025_Xây dựng và phát triển thương hiệu_Branding.pptx (113 slides already captured)
+
+Subject: 3. TMQT
+
+  Session: 1. Chủ Nhật 25.5
+    [SKIP] 1. Overview on ITBL Nov2024.pptx (23 slides already captured)
+    [SKIP] 2. WTO Basic Principles Nov2024.pptx (96 slides already captured)
+    [SKIP] 3. FTA basic principles Nov2024.pptx (34 slides already captured)
+
+  Session: 2. Sáng T7 31.5
+    [SKIP] Tong quan ve PVTM Giang hvtp final 2025.pptx (107 slides already captured)
+
+  Session: 3. Ngày Chủ Nhật 08.6
+    [SKIP] Ky nang tu van PL ve TMHH theo DUQT VN.pptx (132 slides already captured)
+
+  Session: 4. Chiều T7 và cả ngày CN 14-15.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 5. Chiều T7 và CN 21-22.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 6. Chiều CN 27.7
+    [SKIP] Ky nang tu van Bien phap thue quan + Thue toi thieu toan cau.pdf (54 slides already captured)
+
+  Session: 7. T7 và sáng CN 28-29.6
+    [SKIP] 00. Kỹ năng tư vấn pháp luật về MBHHQT.pdf (50 slides already captured)
+
+Subject: 4. DTQT
+
+  Session: 01. Cả ngày thứ Bảy 02 08
+    [SKIP] 250725. Kỹ năng tư vấn về pháp luật đầu tư quốc tế.pptx (34 slides already captured)
+
+  Session: 02. Cả ngày Chủ Nhật 03 08
+    [SKIP] Chu de 1_Dau tu nuoc ngoai tai VN_YKVN_20250729.pptx (54 slides already captured)
+    [SKIP] Chu de 2_Uu dai ho tro dau tu_YKVN_20250729.pptx (37 slides already captured)
+
+  Session: 03. Chiều thứ Bảy 09 08
+    [SKIP] HVTP_Kỹ năng TVPL về ưu đãi hỗ trợ ĐTNN tại VN_09082025.pptx (55 slides already captured)
+
+  Session: 04. Ngày Chủ Nhật 10 08
+    [SKIP] Cac hinh thuc dau tu nuoc ngoai tai VN (LDT 2020), 082025 1.pptx (75 slides already captured)
+
+  Session: 05. Ngày thứ Bảy 16 08
+    [SKIP] Thu tuc dau tu tai VN.pdf (82 slides already captured)
+
+  Session: 06. Sáng Chủ Nhật 17 08
+    [SKIP] Thu tuc dau tu nuoc ngoai - Bai giang cho lop dao tao luat su (2025) - N X Hien (Allens)(816548446.1).pdf (16 slides already captured)
+
+  Session: 07. Ngày thứ Bảy 23 08
+    [SKIP] Hai Ha-Judicial Institution-Case study-20250820-vSent.pdf (4 slides already captured)
+    [SKIP] Hai Ha-MA skills - Hoc Vien Tu Phap -20250820.pdf (62 slides already captured)
+
+  Session: 08. Ngày Chủ Nhật 24 08
+    [SKIP] Hong Bui - MnA QnA - TMHN K8 HCM 24 Aug 2025.pptx (28 slides already captured)
+
+  Session: 09. Chiều thứ Bảy 06 09
+    [SKIP] M&A Tax-HVTP-Final-6 Sep 25-sent.pptx (46 slides already captured)
+
+  Session: 10. Ngày thứ Bảy 13 09
+    [SKIP] KN Tu van DTRNN - 11Sep25 - gui Lop.pdf (36 slides already captured)
+
+  Session: 11. Ngày Chủ Nhật 14 09
+    [SKIP] 20250914 - LNT - Bai giang Dau tu Quoc te.pdf (66 slides already captured)
+
+  Session: 12. Sáng thứ Bảy 04 10
+    [SKIP] Slide_CSHHL_HVTP_1Oct25.pdf (42 slides already captured)
+
+  Session: 13. Sáng Chủ Nhật 05 10
+    [SKIP] HVTP Training - Cross-border Lending and Taking Security (ENG) - 20 September 2025(569626104.1).pptx (27 slides already captured)
+
+Subject: 5. GQTC
+
+  Session: 01. Chiều T7 20.9 & Cả ngày CN 21.9
+    [SKIP] 20250920_HVTP_LTD_Presentation_Ky nang tranh tung cac vu an thuong mai dau tu co yeu to nuoc ngoai.pptx (18 slides already captured)
+
+  Session: 02. Thứ Bảy 27.9
+    [SKIP] RTLCT_Kỹ năng tham gia giải quyết tranh chấp thương mại đầu tư có yếu tố nước ngoài bằng hòa giải_27092025 (1)_FV.pdf (74 slides already captured)
+
+  Session: 03. Chiều CN 05.10
+    [SKIP] Lý thuyết và thực hành_Kỹ năng khởi kiện vụ án KDTM có YTNN_05.10.2025_Final.pptx (41 slides already captured)
+
+  Session: 04. Thứ Bảy 11.10
+    [SKIP] KỸ NĂNG KHỞI KIỆN VỤ ÁN KDTM CÓ YẾU TỐ NƯỚC NGOÀI (HVTP 10-2025).pdf (20 slides already captured)
+
+  Session: 05. Thứ Bảy 25.10
+    [SKIP] Lý thuyết và Thực hành_Kỹ năng NCHS & CBVB trong HĐTT đối với vụ án KDTM có YTNN_BAVN_Ls.Hoai_2025.pptx (34 slides already captured)
+
+  Session: 06. Sáng CN 26.10
+    [SKIP] Kỹ năng tham gia phien toa so tham GQVA KDTM co YTNN_Lý thuyết_26.10.2025_Huyen.pptx (20 slides already captured)
+
+  Session: 07. Chiều CN 26.10
+    [SKIP] 2025.10.23. KY NANG THAM GIA GIAI DOAN PHUC THAM (update).pptx (23 slides already captured)
+
+  Session: 08. Sáng CN 02.11
+    [SKIP] Giải quyết tranh chấp thương mại bằng Trọng tài tại Việt Nam [251102].pdf (65 slides already captured)
+
+  Session: 09. Chiều CN 02.11
+    [SKIP] HVTP Arbitration_Tony EPLegal.pptx (60 slides already captured)
+
+  Session: 10. Chiều T7 08.11
+    [SKIP] Kỹ Năng Luật sư Tham gia GQTC tại Trọng tài_FE.pdf (36 slides already captured)
+
+  Session: 11. Chiều T7 29.11
+    [SKIP] Investor-State Arbitration__Thủ tục.pdf (29 slides already captured)
+    [SKIP] Investor-State Arbitration_Lưu ý nội dung thực hành.pdf (23 slides already captured)
+
+  Session: 12. Chiều CN 30.11
+    [SKIP] EVFTA - CPTPP - VJEPA - ASEAN - RCEP_ComparativeReview - K4.pdf (17 slides already captured)
+    [SKIP] ISDS Arbitration EN.pdf (32 slides already captured)
+    [SKIP] ISDS Mediation EN.pdf (18 slides already captured)
+    [SKIP] ISDS Mediation VIE.pdf (21 slides already captured)
+
+  Session: 13. Cả ngày T7 và sáng CN 06-07.12
+    [SKIP] The-DSU.pdf (28 slides already captured)
+    [SKIP] Which-legal-instruments-can-be-invoked-in-a-dispute.pdf (47 slides already captured)
+
+Subject: 6. SHTT
+
+  Session: 1. Sáng T7 13.12
+    [SKIP] 251208 Tổng quan pháp luật về sở hữu trí tuệ.pdf (19 slides already captured)
+
+  Session: 2. Chiều T7 13.12 & Chiều CN 14.12
+    [SKIP] Seminar 1-IP Development.pptx (57 slides already captured)
+    [SKIP] Seminar 2-IP Ownership.pptx (39 slides already captured)
+
+  Session: 3. Cả ngày T7 & Sáng CN 20-21.12
+    [SKIP] Lich su va tong quan BQTG GCT print.pdf (68 slides already captured)
+    [SKIP] So huu cong nghiep print.pdf (47 slides already captured)
+
+  Session: 4. Chiều CN 21.12
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Xác lập khai thác thương mại hóa quyền SHTT (13Dec2025).pdf (11 slides already captured)
+
+  Session: 5. Chiều T7 27.12
+    [SKIP] Kỹ năng tư vấn pháp luật về thực thi quyền SHTT (1).pdf (39 slides already captured)
+
+  Session: 6. Sáng T7 10.01
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Thuc thi quyen SHTT (10Jan2026).pdf (79 slides already captured)
+
+Subject: 7. STHD
+
+  Session: 1. Ngay thu Bay 17 01
+    [SKIP] Buoi 1 - Kien thuc chung ve Luat HD.pdf (101 slides already captured)
+    [SKIP] Buoi 2 - Hieu luc dieu khoan họp dong co nguon goc common law.pdf (34 slides already captured)
+
+  Session: 2. Ngay Chu Nhat 18 01
+    [SKIP] JA - Contract drafting (Jan 2026).pptx (45 slides already captured)
+
+  Session: 3. Ngay thu Bay 24 01
+    [SKIP] A_ICML_advanced_contract_drafting_risk_allocation_handout_(ICML_24_Jan_2026).pdf (41 slides already captured)
+
+  Session: 4. Sang Chu Nhat 25 01
+    [SKIP] 2. (slide tham khao) VPL - HVTP - TTĐTLSHNQT - Kỹ năng  Quản lý Rủi Ro và soạn thảo Hợp Đồng 2024 (1).pdf (32 slides already captured)
+    [SKIP] VPL KNTVPL- chuẩn bị và soạn thảo HĐ TM và ĐT QT -HVTP_2026.pdf (28 slides already captured)
+
+  Session: 5. Ngay thu Bay 31 01
+    [SKIP] 260131 - Cấu trúc và thể thức HĐTMĐT quốc tế - (To Class).pdf (97 slides already captured)
+
+  Session: 6. Ngay Chu Nhat 01 02
+    [SKIP] 1.  HĐ TMai Đtư Qte  - Cấu trúc và Soạn thảo (Hong Bui) 1 Feb 2026.pptx (10 slides already captured)
+
+Subject: Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư
+  Found 2 file(s) directly in subject folder
+
+  (files directly in subject folder)
+    [SKIP] 2025_ESG và luật sư_Nam.pptx (57 slides already captured)
+    [SKIP] EGLG_Chuyển đổi xanh [VIAC]_MrsAnnie_1.pptx (75 slides already captured)
+
+Crawl complete!
+
+Done! Check captures/ folder for results.
+
+============================================================
+  Crawler started at 2026-03-13 22:54:44
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Waiting for page load (1s)...
+Found 8 subject folder(s): ['1. NLS', '2. KNCB', '3. TMQT', '4. DTQT', '5. GQTC', '6. SHTT', '7. STHD', 'Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư']
+
+Subject: 1. NLS
+
+  Session: 1. Sáng thứ Bảy 22.02
+
+Aborted!
+Future exception was never retrieved
+future: <Future finished exception=TargetClosedError('Target page, context or browser has been closed')>
+playwright._impl._errors.TargetClosedError: Target page, context or browser has been closed
+
+============================================================
+  Crawler started at 2026-03-13 22:55:03
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Waiting for page load (1s)...
+Found 8 subject folder(s): ['1. NLS', '2. KNCB', '3. TMQT', '4. DTQT', '5. GQTC', '6. SHTT', '7. STHD', 'Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư']
+
+Subject: 1. NLS
+
+  Session: 1. Sáng thứ Bảy 22.02
+    [SKIP] GIỚI THIỆU VỀ NGHỀ LUẬT SƯ VÀ KHUNG PHÁP LÝ VỀ NGHỀ LUẬT SƯ_19.02.2025.pdf (20 slides already captured)
+
+  Session: 2. Sáng Chủ Nhật 23.02
+    [SKIP] Lawyers CodeofCoduct_IBA-ABA-VBF.pdf (34 slides already captured)
+
+  Session: 3. Chiều Chủ Nhật 23.02
+    [SKIP] 2025-02-23 HVTP Code of conduct English law (Tony).pptx (185 slides already captured)
+
+  Session: 4. Thứ Bảy 01.03
+    [SKIP] Quan hệ Luật sư  CQTHTT - bản gửi học viên.pptx (23 slides already captured)
+    [SKIP] Tổng quan các Quy tắc Luật sư và khách hàng.pptx (17 slides already captured)
+    [SKIP] Tong quan, nhan thuc hien vu viec.pptx (61 slides already captured)
+
+  Session: 5. Chủ Nhật 02.03
+    [SKIP] Bai giang dao duc 3_3_2025A.pptx (30 slides already captured)
+
+  Session: 6. Thứ Bảy 08.03
+    [SKIP] 2. Lý thuyết_Các quy tắc đạo đức và ứng xử của luật sư với CQTHTT, CQNN.pptx (24 slides already captured)
+    [SKIP] 3. Tình huống_Ứng xử của luật sư với CQTHTT, CQNN.pptx (15 slides already captured)
+
+  Session: 7. Sáng Chủ Nhật 09.03
+    [SKIP] Bộ Quy tắc đạo đức và ứng xử nghề nghiệp + Xử lý vi phạm.pptx (4 slides already captured)
+
+Subject: 2. KNCB
+
+  Session: 01. Sáng thứ 7 15.3
+    [SKIP] 20250211_KNTVPL.pdf (40 slides already captured)
+
+  Session: 02. Chiều thứ 7 15.3
+    [SKIP] 2025_KNTXKH.pptx (126 slides already captured)
+    [SKIP] KNTVPL_2025.pptx (149 slides already captured)
+
+  Session: 03. Sáng Chủ Nhật 16.3
+    [SKIP] Bai tap tinh huong tiep xuc khach hang_YKVN_2025.pptx (8 slides already captured)
+
+  Session: 04. Chiều Chủ Nhật 16.3
+    [SKIP] 2025_KNNSCH.pptx (97 slides already captured)
+
+  Session: 05. Sáng thứ Bảy 22.03
+    [SKIP] HVTP_Skills of negotiation and signing_NHP_2025.pptx (58 slides already captured)
+
+  Session: 06. Chiều thứ Bảy 22.03
+    [SKIP] HVTP_Kỹ năng soạn thảo HĐDVPL_Vn_22032025.pdf (53 slides already captured)
+
+  Session: 07. Ngày Chủ Nhật 23.03
+    [SKIP] An le LS Khoa 8 TPHCM.pptx (116 slides already captured)
+    [SKIP] Ky nang tra cuu LSHN K8 TP HCM.pptx (193 slides already captured)
+
+  Session: 08. Ngày thứ Bảy 29.3
+    Capturing [PPT]: 1 HVTP Ky nang chung ve tu van.ppt
+    [1] Getting GUID for: 1 HVTP Ky nang chung ve tu van.ppt
+    [1] GUID: c8d7dfb3-8587-4cdb-a269-9b4969c34bd9
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: '1 HVTP Ky nang chung ve tu van.ppt'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 607)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Dismissed 'no permission to edit' dialog ✓
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button enabled after right-click + 9s ✓
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [6]   Dismissed late dialog at t=0.0s — re-activating Chrome
+    [7] Slideshow did NOT enter fullscreen — falling back to editor mode
+    [7] Editor mode: clicked slide 1 thumbnail at (80, 331)
+    [Editor Mode] Capturing slides from editor view (Down arrow navigation)
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.3 (Light > 180)
+      [Refine] Crop: top=29, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1140 @ (0,29) [refined]
+    Profile: pptx-preview
+    Done: 2._KNCB/08._Ngày_thứ_Bảy_29.3/1_HVTP_Ky_nang_chung_ve_tu_van
+    Capturing [PPT]: 4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt
+    [1] Getting GUID for: 4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt
+    [1] GUID: ded9dcc0-6393-42fc-af2b-a19a678e6095
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: '4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 607)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button still disabled — falling back to editor mode capture
+    [Editor Mode] Capturing slides from editor view (Down arrow navigation)
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.3 (Light > 180)
+      [Refine] Crop: top=29, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1140 @ (0,29) [refined]
+    Profile: pptx-preview
+    Done: 2._KNCB/08._Ngày_thứ_Bảy_29.3/4_HVTP_Logic_trong_suy_luan_phap_ly_V_00_TTT_00
+    Capturing [PPT]: 5 HVTP Nguy bien V 00 TTT 00.ppt
+    [1] Getting GUID for: 5 HVTP Nguy bien V 00 TTT 00.ppt
+    [1] GUID: afc8a990-3baa-44ec-834b-979407fd7955
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: '5 HVTP Nguy bien V 00 TTT 00.ppt'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 607)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button still disabled — falling back to editor mode capture
+    [Editor Mode] Capturing slides from editor view (Down arrow navigation)
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.3 (Light > 180)
+      [Refine] Crop: top=29, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1140 @ (0,29) [refined]
+    Profile: pptx-preview
+    Done: 2._KNCB/08._Ngày_thứ_Bảy_29.3/5_HVTP_Nguy_bien_V_00_TTT_00
+    Capturing [PPT]: HVTP Mo hinh IRAC V 00 TTT 01.ppt
+    [1] Getting GUID for: HVTP Mo hinh IRAC V 00 TTT 01.ppt
+    [1] GUID: fda179cb-d772-440a-aeeb-afb5166e89c3
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: 'HVTP Mo hinh IRAC V 00 TTT 01.ppt'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 607)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button still disabled — falling back to editor mode capture
+    [Editor Mode] Capturing slides from editor view (Down arrow navigation)
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.3 (Light > 180)
+      [Refine] Crop: top=29, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1140 @ (0,29) [refined]
+    Profile: pptx-preview
+    Done: 2._KNCB/08._Ngày_thứ_Bảy_29.3/HVTP_Mo_hinh_IRAC_V_00_TTT_01
+
+  Session: 09. Sáng Chủ Nhật 30.3
+    [SKIP] 1_GS.TS. Do Van Dai - Vien dan an le.pptx (11 slides already captured)
+
+  Session: 10. Chiều Chủ Nhật 30.3
+    [SKIP] TS. Nguyen Huu Huyen - KY NANG TRA CUU.PPT (9 slides already captured)
+
+  Session: 11. Chiều thứ Bảy 12.4 và sáng Chủ Nhật 13.4
+    [SKIP] Legal writing - HTVP_Pdf_sent.pdf (39 slides already captured)
+    [SKIP] Legal Writing_HVTP_sent.pptx (143 slides already captured)
+
+  Session: 12. Chiều Chủ Nhật 13.4
+    [SKIP] 20241024_Legal Writing Basics.pptx (41 slides already captured)
+
+  Session: 13. Sáng thứ Bảy 19 4
+    [SKIP] 20250416_Legal Advisory Letters.pptx (51 slides already captured)
+
+  Session: 14. Chiều thứ Bảy 19 4 và sáng Chủ Nhật 20 4
+    [SKIP] “Chapter 15 - Parts of a Memo” in “Legal Writing Manual, 2nd Edition”.pdf (9 slides already captured)
+    [SKIP] JA -  (April 25) - Ky nang tu van phap ly (to be sent to JA) - LV.pptx (51 slides already captured)
+    [SKIP] WC Handout IRAC, CRAC, CREAC.revised 5.22 - law.columbia.edu.pdf (3 slides already captured)
+
+  Session: 15. Chiều Chủ Nhật 20 4
+    [SKIP] A1 Ky nang soan thao hop dong V01.pptx (161 slides already captured)
+
+  Session: 16. Ngày thứ Bảy 26 4
+    [SKIP] Contract Drafting Issues_Presentation_20252204.pdf (45 slides already captured)
+
+  Session: 17. Ngày Chủ Nhật 26 4
+    [SKIP] Drafting_international_commercial_contracts_handout (ICML_22_April_2025).pdf (138 slides already captured)
+
+  Session: 18. Ngày thứ Bảy 10 5 và sáng Chủ Nhật 11 5
+    [SKIP] 01. Harvard Principled Negotiation.V.01.PQT.00.HV.PDF (44 slides already captured)
+    [SKIP] Harvard Principled Negotiation.AF.HV.V.01.PQT.00-full.pdf (69 slides already captured)
+
+  Session: 19. Sáng thứ Bảy 17 5
+    [SKIP] 0 - LNT Lawyer Training - Contract Draft n Review - by Hong Bui_ 2024 (E).pptx (58 slides already captured)
+
+  Session: 20. Chiều thứ Bảy 17 5
+    [SKIP] Chieu T7_Thương hiệu Luật sư - BNH.pptx (17 slides already captured)
+
+  Session: 21. Ngày Chủ Nhật 18 5
+    [SKIP] 3. PP_HVTP_18052025_Work management Skill for Lawyer_NHP_00E00.pptx (78 slides already captured)
+    [SKIP] HVTP_Client work management only_18052025_VN.pptx (40 slides already captured)
+    [SKIP] PP_HVTP_18052025_Quang ba va tiep thi_Marketing.pptx (97 slides already captured)
+    [SKIP] PP_HVTP_18052025_Xây dựng và phát triển thương hiệu_Branding.pptx (113 slides already captured)
+
+Subject: 3. TMQT
+
+  Session: 1. Chủ Nhật 25.5
+    [SKIP] 1. Overview on ITBL Nov2024.pptx (23 slides already captured)
+    [SKIP] 2. WTO Basic Principles Nov2024.pptx (96 slides already captured)
+    [SKIP] 3. FTA basic principles Nov2024.pptx (34 slides already captured)
+
+  Session: 2. Sáng T7 31.5
+    [SKIP] Tong quan ve PVTM Giang hvtp final 2025.pptx (107 slides already captured)
+
+  Session: 3. Ngày Chủ Nhật 08.6
+    [SKIP] Ky nang tu van PL ve TMHH theo DUQT VN.pptx (132 slides already captured)
+
+  Session: 4. Chiều T7 và cả ngày CN 14-15.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 5. Chiều T7 và CN 21-22.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 6. Chiều CN 27.7
+    [SKIP] Ky nang tu van Bien phap thue quan + Thue toi thieu toan cau.pdf (54 slides already captured)
+
+  Session: 7. T7 và sáng CN 28-29.6
+    [SKIP] 00. Kỹ năng tư vấn pháp luật về MBHHQT.pdf (50 slides already captured)
+
+Subject: 4. DTQT
+
+  Session: 01. Cả ngày thứ Bảy 02 08
+    [SKIP] 250725. Kỹ năng tư vấn về pháp luật đầu tư quốc tế.pptx (34 slides already captured)
+
+  Session: 02. Cả ngày Chủ Nhật 03 08
+    [SKIP] Chu de 1_Dau tu nuoc ngoai tai VN_YKVN_20250729.pptx (54 slides already captured)
+    [SKIP] Chu de 2_Uu dai ho tro dau tu_YKVN_20250729.pptx (37 slides already captured)
+
+  Session: 03. Chiều thứ Bảy 09 08
+    [SKIP] HVTP_Kỹ năng TVPL về ưu đãi hỗ trợ ĐTNN tại VN_09082025.pptx (55 slides already captured)
+
+  Session: 04. Ngày Chủ Nhật 10 08
+    [SKIP] Cac hinh thuc dau tu nuoc ngoai tai VN (LDT 2020), 082025 1.pptx (75 slides already captured)
+
+  Session: 05. Ngày thứ Bảy 16 08
+    [SKIP] Thu tuc dau tu tai VN.pdf (82 slides already captured)
+
+  Session: 06. Sáng Chủ Nhật 17 08
+    [SKIP] Thu tuc dau tu nuoc ngoai - Bai giang cho lop dao tao luat su (2025) - N X Hien (Allens)(816548446.1).pdf (16 slides already captured)
+
+  Session: 07. Ngày thứ Bảy 23 08
+    [SKIP] Hai Ha-Judicial Institution-Case study-20250820-vSent.pdf (4 slides already captured)
+    [SKIP] Hai Ha-MA skills - Hoc Vien Tu Phap -20250820.pdf (62 slides already captured)
+
+  Session: 08. Ngày Chủ Nhật 24 08
+    [SKIP] Hong Bui - MnA QnA - TMHN K8 HCM 24 Aug 2025.pptx (28 slides already captured)
+
+  Session: 09. Chiều thứ Bảy 06 09
+    [SKIP] M&A Tax-HVTP-Final-6 Sep 25-sent.pptx (46 slides already captured)
+
+  Session: 10. Ngày thứ Bảy 13 09
+    [SKIP] KN Tu van DTRNN - 11Sep25 - gui Lop.pdf (36 slides already captured)
+
+  Session: 11. Ngày Chủ Nhật 14 09
+    [SKIP] 20250914 - LNT - Bai giang Dau tu Quoc te.pdf (66 slides already captured)
+
+  Session: 12. Sáng thứ Bảy 04 10
+    [SKIP] Slide_CSHHL_HVTP_1Oct25.pdf (42 slides already captured)
+
+  Session: 13. Sáng Chủ Nhật 05 10
+    [SKIP] HVTP Training - Cross-border Lending and Taking Security (ENG) - 20 September 2025(569626104.1).pptx (27 slides already captured)
+
+Subject: 5. GQTC
+
+  Session: 01. Chiều T7 20.9 & Cả ngày CN 21.9
+    [SKIP] 20250920_HVTP_LTD_Presentation_Ky nang tranh tung cac vu an thuong mai dau tu co yeu to nuoc ngoai.pptx (18 slides already captured)
+
+  Session: 02. Thứ Bảy 27.9
+    [SKIP] RTLCT_Kỹ năng tham gia giải quyết tranh chấp thương mại đầu tư có yếu tố nước ngoài bằng hòa giải_27092025 (1)_FV.pdf (74 slides already captured)
+
+  Session: 03. Chiều CN 05.10
+    [SKIP] Lý thuyết và thực hành_Kỹ năng khởi kiện vụ án KDTM có YTNN_05.10.2025_Final.pptx (41 slides already captured)
+
+  Session: 04. Thứ Bảy 11.10
+    [SKIP] KỸ NĂNG KHỞI KIỆN VỤ ÁN KDTM CÓ YẾU TỐ NƯỚC NGOÀI (HVTP 10-2025).pdf (20 slides already captured)
+
+  Session: 05. Thứ Bảy 25.10
+    [SKIP] Lý thuyết và Thực hành_Kỹ năng NCHS & CBVB trong HĐTT đối với vụ án KDTM có YTNN_BAVN_Ls.Hoai_2025.pptx (34 slides already captured)
+
+  Session: 06. Sáng CN 26.10
+    [SKIP] Kỹ năng tham gia phien toa so tham GQVA KDTM co YTNN_Lý thuyết_26.10.2025_Huyen.pptx (20 slides already captured)
+
+  Session: 07. Chiều CN 26.10
+    [SKIP] 2025.10.23. KY NANG THAM GIA GIAI DOAN PHUC THAM (update).pptx (23 slides already captured)
+
+  Session: 08. Sáng CN 02.11
+    [SKIP] Giải quyết tranh chấp thương mại bằng Trọng tài tại Việt Nam [251102].pdf (65 slides already captured)
+
+  Session: 09. Chiều CN 02.11
+    [SKIP] HVTP Arbitration_Tony EPLegal.pptx (60 slides already captured)
+
+  Session: 10. Chiều T7 08.11
+    [SKIP] Kỹ Năng Luật sư Tham gia GQTC tại Trọng tài_FE.pdf (36 slides already captured)
+
+  Session: 11. Chiều T7 29.11
+    [SKIP] Investor-State Arbitration__Thủ tục.pdf (29 slides already captured)
+    [SKIP] Investor-State Arbitration_Lưu ý nội dung thực hành.pdf (23 slides already captured)
+
+  Session: 12. Chiều CN 30.11
+    [SKIP] EVFTA - CPTPP - VJEPA - ASEAN - RCEP_ComparativeReview - K4.pdf (17 slides already captured)
+    [SKIP] ISDS Arbitration EN.pdf (32 slides already captured)
+    [SKIP] ISDS Mediation EN.pdf (18 slides already captured)
+    [SKIP] ISDS Mediation VIE.pdf (21 slides already captured)
+
+  Session: 13. Cả ngày T7 và sáng CN 06-07.12
+    [SKIP] The-DSU.pdf (28 slides already captured)
+    [SKIP] Which-legal-instruments-can-be-invoked-in-a-dispute.pdf (47 slides already captured)
+
+Subject: 6. SHTT
+
+  Session: 1. Sáng T7 13.12
+    [SKIP] 251208 Tổng quan pháp luật về sở hữu trí tuệ.pdf (19 slides already captured)
+
+  Session: 2. Chiều T7 13.12 & Chiều CN 14.12
+    [SKIP] Seminar 1-IP Development.pptx (57 slides already captured)
+    [SKIP] Seminar 2-IP Ownership.pptx (39 slides already captured)
+
+  Session: 3. Cả ngày T7 & Sáng CN 20-21.12
+    [SKIP] Lich su va tong quan BQTG GCT print.pdf (68 slides already captured)
+    [SKIP] So huu cong nghiep print.pdf (47 slides already captured)
+
+  Session: 4. Chiều CN 21.12
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Xác lập khai thác thương mại hóa quyền SHTT (13Dec2025).pdf (11 slides already captured)
+
+  Session: 5. Chiều T7 27.12
+    [SKIP] Kỹ năng tư vấn pháp luật về thực thi quyền SHTT (1).pdf (39 slides already captured)
+
+  Session: 6. Sáng T7 10.01
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Thuc thi quyen SHTT (10Jan2026).pdf (79 slides already captured)
+
+Subject: 7. STHD
+
+  Session: 1. Ngay thu Bay 17 01
+    [SKIP] Buoi 1 - Kien thuc chung ve Luat HD.pdf (101 slides already captured)
+    [SKIP] Buoi 2 - Hieu luc dieu khoan họp dong co nguon goc common law.pdf (34 slides already captured)
+
+  Session: 2. Ngay Chu Nhat 18 01
+    [SKIP] JA - Contract drafting (Jan 2026).pptx (45 slides already captured)
+
+  Session: 3. Ngay thu Bay 24 01
+    [SKIP] A_ICML_advanced_contract_drafting_risk_allocation_handout_(ICML_24_Jan_2026).pdf (41 slides already captured)
+
+  Session: 4. Sang Chu Nhat 25 01
+    [SKIP] 2. (slide tham khao) VPL - HVTP - TTĐTLSHNQT - Kỹ năng  Quản lý Rủi Ro và soạn thảo Hợp Đồng 2024 (1).pdf (32 slides already captured)
+    [SKIP] VPL KNTVPL- chuẩn bị và soạn thảo HĐ TM và ĐT QT -HVTP_2026.pdf (28 slides already captured)
+
+  Session: 5. Ngay thu Bay 31 01
+    [SKIP] 260131 - Cấu trúc và thể thức HĐTMĐT quốc tế - (To Class).pdf (97 slides already captured)
+
+  Session: 6. Ngay Chu Nhat 01 02
+    [SKIP] 1.  HĐ TMai Đtư Qte  - Cấu trúc và Soạn thảo (Hong Bui) 1 Feb 2026.pptx (10 slides already captured)
+
+Subject: Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư
+  Found 2 file(s) directly in subject folder
+
+  (files directly in subject folder)
+    [SKIP] 2025_ESG và luật sư_Nam.pptx (57 slides already captured)
+    [SKIP] EGLG_Chuyển đổi xanh [VIAC]_MrsAnnie_1.pptx (75 slides already captured)
+
+Crawl complete!
+
+Done! Check captures/ folder for results.
+
+============================================================
+  Crawler started at 2026-03-13 23:11:50
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Waiting for page load (1s)...
+Found 8 subject folder(s): ['1. NLS', '2. KNCB', '3. TMQT', '4. DTQT', '5. GQTC', '6. SHTT', '7. STHD', 'Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư']
+
+Subject: 1. NLS
+
+  Session: 1. Sáng thứ Bảy 22.02
+    [SKIP] GIỚI THIỆU VỀ NGHỀ LUẬT SƯ VÀ KHUNG PHÁP LÝ VỀ NGHỀ LUẬT SƯ_19.02.2025.pdf (20 slides already captured)
+
+  Session: 2. Sáng Chủ Nhật 23.02
+    [SKIP] Lawyers CodeofCoduct_IBA-ABA-VBF.pdf (34 slides already captured)
+
+  Session: 3. Chiều Chủ Nhật 23.02
+    [SKIP] 2025-02-23 HVTP Code of conduct English law (Tony).pptx (185 slides already captured)
+
+  Session: 4. Thứ Bảy 01.03
+    [SKIP] Quan hệ Luật sư  CQTHTT - bản gửi học viên.pptx (23 slides already captured)
+    [SKIP] Tổng quan các Quy tắc Luật sư và khách hàng.pptx (17 slides already captured)
+    [SKIP] Tong quan, nhan thuc hien vu viec.pptx (61 slides already captured)
+
+  Session: 5. Chủ Nhật 02.03
+    [SKIP] Bai giang dao duc 3_3_2025A.pptx (30 slides already captured)
+
+  Session: 6. Thứ Bảy 08.03
+    [SKIP] 2. Lý thuyết_Các quy tắc đạo đức và ứng xử của luật sư với CQTHTT, CQNN.pptx (24 slides already captured)
+    [SKIP] 3. Tình huống_Ứng xử của luật sư với CQTHTT, CQNN.pptx (15 slides already captured)
+
+  Session: 7. Sáng Chủ Nhật 09.03
+    [SKIP] Bộ Quy tắc đạo đức và ứng xử nghề nghiệp + Xử lý vi phạm.pptx (4 slides already captured)
+
+Subject: 2. KNCB
+
+  Session: 01. Sáng thứ 7 15.3
+    [SKIP] 20250211_KNTVPL.pdf (40 slides already captured)
+
+  Session: 02. Chiều thứ 7 15.3
+    [SKIP] 2025_KNTXKH.pptx (126 slides already captured)
+    [SKIP] KNTVPL_2025.pptx (149 slides already captured)
+
+  Session: 03. Sáng Chủ Nhật 16.3
+    [SKIP] Bai tap tinh huong tiep xuc khach hang_YKVN_2025.pptx (8 slides already captured)
+
+  Session: 04. Chiều Chủ Nhật 16.3
+    [SKIP] 2025_KNNSCH.pptx (97 slides already captured)
+
+  Session: 05. Sáng thứ Bảy 22.03
+    [SKIP] HVTP_Skills of negotiation and signing_NHP_2025.pptx (58 slides already captured)
+
+  Session: 06. Chiều thứ Bảy 22.03
+    [SKIP] HVTP_Kỹ năng soạn thảo HĐDVPL_Vn_22032025.pdf (53 slides already captured)
+
+  Session: 07. Ngày Chủ Nhật 23.03
+    [SKIP] An le LS Khoa 8 TPHCM.pptx (116 slides already captured)
+    [SKIP] Ky nang tra cuu LSHN K8 TP HCM.pptx (193 slides already captured)
+
+  Session: 08. Ngày thứ Bảy 29.3
+    [SKIP] 1 HVTP Ky nang chung ve tu van.ppt (56 slides already captured)
+    [SKIP] 4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt (12 slides already captured)
+    [SKIP] 5 HVTP Nguy bien V 00 TTT 00.ppt (17 slides already captured)
+    [SKIP] HVTP Mo hinh IRAC V 00 TTT 01.ppt (19 slides already captured)
+
+  Session: 09. Sáng Chủ Nhật 30.3
+    [SKIP] 1_GS.TS. Do Van Dai - Vien dan an le.pptx (11 slides already captured)
+
+  Session: 10. Chiều Chủ Nhật 30.3
+    Capturing [PPT]: TS. Nguyen Huu Huyen - KY NANG TRA CUU.PPT
+    [1] Getting GUID for: TS. Nguyen Huu Huyen - KY NANG TRA CUU.PPT
+    [1] GUID: c8b13670-3493-48da-8fca-f318eac25bda
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: 'TS. Nguyen Huu Huyen - KY NANG TRA CUU.PPT'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Dismissed 'no permission to edit' dialog ✓
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [4] 'From Beginning' is disabled — right-clicking slide to activate...
+    [4] Button still disabled — falling back to editor mode capture
+    [Editor Mode] Capturing slides from editor view (Down arrow navigation)
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=244.5 (Light > 180)
+      [Refine] Crop: top=28, bottom=0, left=0, right=0
+    Auto-detected PPTX region: 1800x1141 @ (0,28) [refined]
+    Profile: pptx-preview
+    Done: 2._KNCB/10._Chiều_Chủ_Nhật_30.3/TS._Nguyen_Huu_Huyen_-_KY_NANG_TRA_CUU
+
+  Session: 11. Chiều thứ Bảy 12.4 và sáng Chủ Nhật 13.4
+    [SKIP] Legal writing - HTVP_Pdf_sent.pdf (39 slides already captured)
+    Capturing [PPTX]: Legal Writing_HVTP_sent.pptx
+    [1] Getting GUID for: Legal Writing_HVTP_sent.pptx
+    [1] GUID: f0023994-7374-41d0-b6ac-d2143048aae4
+    [2] Opening: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/_layouts/15/Doc.aspx?sourcedoc=...
+    [2] Page loaded: 'Legal Writing_HVTP_sent.pptx'
+    [2] Waiting 8s for PowerPoint UI to fully load...
+    [3] Requesting Chrome fullscreen (Ctrl+Cmd+F)…
+    [3] OS mouse → screen (900, 604)
+    [4] Waiting for PowerPoint Online + dismissing any dialogs (up to 30s)...
+    [4] Present button ready in frame 1 (https://powerpoint.officeapps.live.com/pods/ppt.aspx?ui=en-U): 'Present'
+    [4] Found 'Slide Show' tab, attempting Ribbon navigation...
+    [5] Clicked 'From Beginning' via Ribbon ✓
+    [5] Clicked Present button: 'Ribbon > From Beginning' ✓
+    [6] Waiting 5s for slideshow, dismissing any late dialogs...
+    [7] Clicking center (900,650) to give slideshow keyboard focus...
+    [7] Focus acquired, returned to slide 1 ✓
+    Waiting 3s for slide to render in fullscreen...
+    [Debug] Monitor detected: {'left': 0, 'top': 0, 'width': 1800, 'height': 1169}
+      [Refine] bg_brightness=184.8 (Light > 180)
+      [Refine] Crop: top=28, bottom=389, left=0, right=0
+    Auto-detected PPTX region: 1800x752 @ (0,28) [refined]
+    Profile: pptx-preview
+
+Aborted!
+
+============================================================
+  Crawler started at 2026-03-13 23:27:46
+  Log: /Users/trungnguyen/capture/crawler.log
+============================================================
+
+
+Connecting to Chrome at http://127.0.0.1:9222...
+Nếu chưa mở Chrome, hãy chạy lệnh sau:
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 --user-data-dir=/tmp/chrome-crawl
+
+Root: https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2F2%2E%20T%C3%A0i%20li%E1%BB%87u%20b%C3%A0i%20gi%E1%BA%A3ng&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B
+Waiting for page load (1s)...
+Found 8 subject folder(s): ['1. NLS', '2. KNCB', '3. TMQT', '4. DTQT', '5. GQTC', '6. SHTT', '7. STHD', 'Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư']
+
+Subject: 1. NLS
+
+  Session: 1. Sáng thứ Bảy 22.02
+    [SKIP] GIỚI THIỆU VỀ NGHỀ LUẬT SƯ VÀ KHUNG PHÁP LÝ VỀ NGHỀ LUẬT SƯ_19.02.2025.pdf (20 slides already captured)
+
+  Session: 2. Sáng Chủ Nhật 23.02
+    [SKIP] Lawyers CodeofCoduct_IBA-ABA-VBF.pdf (34 slides already captured)
+
+  Session: 3. Chiều Chủ Nhật 23.02
+    [SKIP] 2025-02-23 HVTP Code of conduct English law (Tony).pptx (185 slides already captured)
+
+  Session: 4. Thứ Bảy 01.03
+    [SKIP] Quan hệ Luật sư  CQTHTT - bản gửi học viên.pptx (23 slides already captured)
+    [SKIP] Tổng quan các Quy tắc Luật sư và khách hàng.pptx (17 slides already captured)
+    [SKIP] Tong quan, nhan thuc hien vu viec.pptx (61 slides already captured)
+
+  Session: 5. Chủ Nhật 02.03
+    [SKIP] Bai giang dao duc 3_3_2025A.pptx (30 slides already captured)
+
+  Session: 6. Thứ Bảy 08.03
+    [SKIP] 2. Lý thuyết_Các quy tắc đạo đức và ứng xử của luật sư với CQTHTT, CQNN.pptx (24 slides already captured)
+    [SKIP] 3. Tình huống_Ứng xử của luật sư với CQTHTT, CQNN.pptx (15 slides already captured)
+
+  Session: 7. Sáng Chủ Nhật 09.03
+    [SKIP] Bộ Quy tắc đạo đức và ứng xử nghề nghiệp + Xử lý vi phạm.pptx (4 slides already captured)
+
+Subject: 2. KNCB
+
+  Session: 01. Sáng thứ 7 15.3
+    [SKIP] 20250211_KNTVPL.pdf (40 slides already captured)
+
+  Session: 02. Chiều thứ 7 15.3
+    [SKIP] 2025_KNTXKH.pptx (126 slides already captured)
+    [SKIP] KNTVPL_2025.pptx (149 slides already captured)
+
+  Session: 03. Sáng Chủ Nhật 16.3
+    [SKIP] Bai tap tinh huong tiep xuc khach hang_YKVN_2025.pptx (8 slides already captured)
+
+  Session: 04. Chiều Chủ Nhật 16.3
+    [SKIP] 2025_KNNSCH.pptx (97 slides already captured)
+
+  Session: 05. Sáng thứ Bảy 22.03
+    [SKIP] HVTP_Skills of negotiation and signing_NHP_2025.pptx (58 slides already captured)
+
+  Session: 06. Chiều thứ Bảy 22.03
+    [SKIP] HVTP_Kỹ năng soạn thảo HĐDVPL_Vn_22032025.pdf (53 slides already captured)
+
+  Session: 07. Ngày Chủ Nhật 23.03
+    [SKIP] An le LS Khoa 8 TPHCM.pptx (116 slides already captured)
+    [SKIP] Ky nang tra cuu LSHN K8 TP HCM.pptx (193 slides already captured)
+
+  Session: 08. Ngày thứ Bảy 29.3
+    [SKIP] 1 HVTP Ky nang chung ve tu van.ppt (56 slides already captured)
+    [SKIP] 4 HVTP Logic trong suy luan phap ly V 00 TTT 00.ppt (12 slides already captured)
+    [SKIP] 5 HVTP Nguy bien V 00 TTT 00.ppt (17 slides already captured)
+    [SKIP] HVTP Mo hinh IRAC V 00 TTT 01.ppt (19 slides already captured)
+
+  Session: 09. Sáng Chủ Nhật 30.3
+    [SKIP] 1_GS.TS. Do Van Dai - Vien dan an le.pptx (11 slides already captured)
+
+  Session: 10. Chiều Chủ Nhật 30.3
+    [SKIP] TS. Nguyen Huu Huyen - KY NANG TRA CUU.PPT (10 slides already captured)
+
+  Session: 11. Chiều thứ Bảy 12.4 và sáng Chủ Nhật 13.4
+    [SKIP] Legal writing - HTVP_Pdf_sent.pdf (39 slides already captured)
+    [SKIP] Legal Writing_HVTP_sent.pptx (153 slides already captured)
+
+  Session: 12. Chiều Chủ Nhật 13.4
+    [SKIP] 20241024_Legal Writing Basics.pptx (41 slides already captured)
+
+  Session: 13. Sáng thứ Bảy 19 4
+    [SKIP] 20250416_Legal Advisory Letters.pptx (51 slides already captured)
+
+  Session: 14. Chiều thứ Bảy 19 4 và sáng Chủ Nhật 20 4
+    [SKIP] “Chapter 15 - Parts of a Memo” in “Legal Writing Manual, 2nd Edition”.pdf (9 slides already captured)
+    [SKIP] JA -  (April 25) - Ky nang tu van phap ly (to be sent to JA) - LV.pptx (51 slides already captured)
+    [SKIP] WC Handout IRAC, CRAC, CREAC.revised 5.22 - law.columbia.edu.pdf (3 slides already captured)
+
+  Session: 15. Chiều Chủ Nhật 20 4
+    [SKIP] A1 Ky nang soan thao hop dong V01.pptx (161 slides already captured)
+
+  Session: 16. Ngày thứ Bảy 26 4
+    [SKIP] Contract Drafting Issues_Presentation_20252204.pdf (45 slides already captured)
+
+  Session: 17. Ngày Chủ Nhật 26 4
+    [SKIP] Drafting_international_commercial_contracts_handout (ICML_22_April_2025).pdf (138 slides already captured)
+
+  Session: 18. Ngày thứ Bảy 10 5 và sáng Chủ Nhật 11 5
+    [SKIP] 01. Harvard Principled Negotiation.V.01.PQT.00.HV.PDF (44 slides already captured)
+    [SKIP] Harvard Principled Negotiation.AF.HV.V.01.PQT.00-full.pdf (69 slides already captured)
+
+  Session: 19. Sáng thứ Bảy 17 5
+    [SKIP] 0 - LNT Lawyer Training - Contract Draft n Review - by Hong Bui_ 2024 (E).pptx (58 slides already captured)
+
+  Session: 20. Chiều thứ Bảy 17 5
+    [SKIP] Chieu T7_Thương hiệu Luật sư - BNH.pptx (17 slides already captured)
+
+  Session: 21. Ngày Chủ Nhật 18 5
+    [SKIP] 3. PP_HVTP_18052025_Work management Skill for Lawyer_NHP_00E00.pptx (78 slides already captured)
+    [SKIP] HVTP_Client work management only_18052025_VN.pptx (40 slides already captured)
+    [SKIP] PP_HVTP_18052025_Quang ba va tiep thi_Marketing.pptx (97 slides already captured)
+    [SKIP] PP_HVTP_18052025_Xây dựng và phát triển thương hiệu_Branding.pptx (113 slides already captured)
+
+Subject: 3. TMQT
+
+  Session: 1. Chủ Nhật 25.5
+    [SKIP] 1. Overview on ITBL Nov2024.pptx (23 slides already captured)
+    [SKIP] 2. WTO Basic Principles Nov2024.pptx (96 slides already captured)
+    [SKIP] 3. FTA basic principles Nov2024.pptx (34 slides already captured)
+
+  Session: 2. Sáng T7 31.5
+    [SKIP] Tong quan ve PVTM Giang hvtp final 2025.pptx (107 slides already captured)
+
+  Session: 3. Ngày Chủ Nhật 08.6
+    [SKIP] Ky nang tu van PL ve TMHH theo DUQT VN.pptx (132 slides already captured)
+
+  Session: 4. Chiều T7 và cả ngày CN 14-15.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 5. Chiều T7 và CN 21-22.6
+    [SKIP] slide bai giang CISG- TQTMQT- luat mem.pdf (37 slides already captured)
+
+  Session: 6. Chiều CN 27.7
+    [SKIP] Ky nang tu van Bien phap thue quan + Thue toi thieu toan cau.pdf (54 slides already captured)
+
+  Session: 7. T7 và sáng CN 28-29.6
+    [SKIP] 00. Kỹ năng tư vấn pháp luật về MBHHQT.pdf (50 slides already captured)
+
+Subject: 4. DTQT
+
+  Session: 01. Cả ngày thứ Bảy 02 08
+    [SKIP] 250725. Kỹ năng tư vấn về pháp luật đầu tư quốc tế.pptx (34 slides already captured)
+
+  Session: 02. Cả ngày Chủ Nhật 03 08
+    [SKIP] Chu de 1_Dau tu nuoc ngoai tai VN_YKVN_20250729.pptx (54 slides already captured)
+    [SKIP] Chu de 2_Uu dai ho tro dau tu_YKVN_20250729.pptx (37 slides already captured)
+
+  Session: 03. Chiều thứ Bảy 09 08
+    [SKIP] HVTP_Kỹ năng TVPL về ưu đãi hỗ trợ ĐTNN tại VN_09082025.pptx (55 slides already captured)
+
+  Session: 04. Ngày Chủ Nhật 10 08
+    [SKIP] Cac hinh thuc dau tu nuoc ngoai tai VN (LDT 2020), 082025 1.pptx (75 slides already captured)
+
+  Session: 05. Ngày thứ Bảy 16 08
+    [SKIP] Thu tuc dau tu tai VN.pdf (82 slides already captured)
+
+  Session: 06. Sáng Chủ Nhật 17 08
+    [SKIP] Thu tuc dau tu nuoc ngoai - Bai giang cho lop dao tao luat su (2025) - N X Hien (Allens)(816548446.1).pdf (16 slides already captured)
+
+  Session: 07. Ngày thứ Bảy 23 08
+    [SKIP] Hai Ha-Judicial Institution-Case study-20250820-vSent.pdf (4 slides already captured)
+    [SKIP] Hai Ha-MA skills - Hoc Vien Tu Phap -20250820.pdf (62 slides already captured)
+
+  Session: 08. Ngày Chủ Nhật 24 08
+    [SKIP] Hong Bui - MnA QnA - TMHN K8 HCM 24 Aug 2025.pptx (28 slides already captured)
+
+  Session: 09. Chiều thứ Bảy 06 09
+    [SKIP] M&A Tax-HVTP-Final-6 Sep 25-sent.pptx (46 slides already captured)
+
+  Session: 10. Ngày thứ Bảy 13 09
+    [SKIP] KN Tu van DTRNN - 11Sep25 - gui Lop.pdf (36 slides already captured)
+
+  Session: 11. Ngày Chủ Nhật 14 09
+    [SKIP] 20250914 - LNT - Bai giang Dau tu Quoc te.pdf (66 slides already captured)
+
+  Session: 12. Sáng thứ Bảy 04 10
+    [SKIP] Slide_CSHHL_HVTP_1Oct25.pdf (42 slides already captured)
+
+  Session: 13. Sáng Chủ Nhật 05 10
+    [SKIP] HVTP Training - Cross-border Lending and Taking Security (ENG) - 20 September 2025(569626104.1).pptx (27 slides already captured)
+
+Subject: 5. GQTC
+
+  Session: 01. Chiều T7 20.9 & Cả ngày CN 21.9
+    [SKIP] 20250920_HVTP_LTD_Presentation_Ky nang tranh tung cac vu an thuong mai dau tu co yeu to nuoc ngoai.pptx (18 slides already captured)
+
+  Session: 02. Thứ Bảy 27.9
+    [SKIP] RTLCT_Kỹ năng tham gia giải quyết tranh chấp thương mại đầu tư có yếu tố nước ngoài bằng hòa giải_27092025 (1)_FV.pdf (74 slides already captured)
+
+  Session: 03. Chiều CN 05.10
+    [SKIP] Lý thuyết và thực hành_Kỹ năng khởi kiện vụ án KDTM có YTNN_05.10.2025_Final.pptx (41 slides already captured)
+
+  Session: 04. Thứ Bảy 11.10
+    [SKIP] KỸ NĂNG KHỞI KIỆN VỤ ÁN KDTM CÓ YẾU TỐ NƯỚC NGOÀI (HVTP 10-2025).pdf (20 slides already captured)
+
+  Session: 05. Thứ Bảy 25.10
+    [SKIP] Lý thuyết và Thực hành_Kỹ năng NCHS & CBVB trong HĐTT đối với vụ án KDTM có YTNN_BAVN_Ls.Hoai_2025.pptx (34 slides already captured)
+
+  Session: 06. Sáng CN 26.10
+    [SKIP] Kỹ năng tham gia phien toa so tham GQVA KDTM co YTNN_Lý thuyết_26.10.2025_Huyen.pptx (20 slides already captured)
+
+  Session: 07. Chiều CN 26.10
+    [SKIP] 2025.10.23. KY NANG THAM GIA GIAI DOAN PHUC THAM (update).pptx (23 slides already captured)
+
+  Session: 08. Sáng CN 02.11
+    [SKIP] Giải quyết tranh chấp thương mại bằng Trọng tài tại Việt Nam [251102].pdf (65 slides already captured)
+
+  Session: 09. Chiều CN 02.11
+    [SKIP] HVTP Arbitration_Tony EPLegal.pptx (60 slides already captured)
+
+  Session: 10. Chiều T7 08.11
+    [SKIP] Kỹ Năng Luật sư Tham gia GQTC tại Trọng tài_FE.pdf (36 slides already captured)
+
+  Session: 11. Chiều T7 29.11
+    [SKIP] Investor-State Arbitration__Thủ tục.pdf (29 slides already captured)
+    [SKIP] Investor-State Arbitration_Lưu ý nội dung thực hành.pdf (23 slides already captured)
+
+  Session: 12. Chiều CN 30.11
+    [SKIP] EVFTA - CPTPP - VJEPA - ASEAN - RCEP_ComparativeReview - K4.pdf (17 slides already captured)
+    [SKIP] ISDS Arbitration EN.pdf (32 slides already captured)
+    [SKIP] ISDS Mediation EN.pdf (18 slides already captured)
+    [SKIP] ISDS Mediation VIE.pdf (21 slides already captured)
+
+  Session: 13. Cả ngày T7 và sáng CN 06-07.12
+    [SKIP] The-DSU.pdf (28 slides already captured)
+    [SKIP] Which-legal-instruments-can-be-invoked-in-a-dispute.pdf (47 slides already captured)
+
+Subject: 6. SHTT
+
+  Session: 1. Sáng T7 13.12
+    [SKIP] 251208 Tổng quan pháp luật về sở hữu trí tuệ.pdf (19 slides already captured)
+
+  Session: 2. Chiều T7 13.12 & Chiều CN 14.12
+    [SKIP] Seminar 1-IP Development.pptx (57 slides already captured)
+    [SKIP] Seminar 2-IP Ownership.pptx (39 slides already captured)
+
+  Session: 3. Cả ngày T7 & Sáng CN 20-21.12
+    [SKIP] Lich su va tong quan BQTG GCT print.pdf (68 slides already captured)
+    [SKIP] So huu cong nghiep print.pdf (47 slides already captured)
+
+  Session: 4. Chiều CN 21.12
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Xác lập khai thác thương mại hóa quyền SHTT (13Dec2025).pdf (11 slides already captured)
+
+  Session: 5. Chiều T7 27.12
+    [SKIP] Kỹ năng tư vấn pháp luật về thực thi quyền SHTT (1).pdf (39 slides already captured)
+
+  Session: 6. Sáng T7 10.01
+    [SKIP] Le Xuan Loc_Lop HNQT 2025_Thuc thi quyen SHTT (10Jan2026).pdf (79 slides already captured)
+
+Subject: 7. STHD
+
+  Session: 1. Ngay thu Bay 17 01
+    [SKIP] Buoi 1 - Kien thuc chung ve Luat HD.pdf (101 slides already captured)
+    [SKIP] Buoi 2 - Hieu luc dieu khoan họp dong co nguon goc common law.pdf (34 slides already captured)
+
+  Session: 2. Ngay Chu Nhat 18 01
+    [SKIP] JA - Contract drafting (Jan 2026).pptx (45 slides already captured)
+
+  Session: 3. Ngay thu Bay 24 01
+    [SKIP] A_ICML_advanced_contract_drafting_risk_allocation_handout_(ICML_24_Jan_2026).pdf (41 slides already captured)
+
+  Session: 4. Sang Chu Nhat 25 01
+    [SKIP] 2. (slide tham khao) VPL - HVTP - TTĐTLSHNQT - Kỹ năng  Quản lý Rủi Ro và soạn thảo Hợp Đồng 2024 (1).pdf (32 slides already captured)
+    [SKIP] VPL KNTVPL- chuẩn bị và soạn thảo HĐ TM và ĐT QT -HVTP_2026.pdf (28 slides already captured)
+
+  Session: 5. Ngay thu Bay 31 01
+    [SKIP] 260131 - Cấu trúc và thể thức HĐTMĐT quốc tế - (To Class).pdf (97 slides already captured)
+
+  Session: 6. Ngay Chu Nhat 01 02
+    [SKIP] 1.  HĐ TMai Đtư Qte  - Cấu trúc và Soạn thảo (Hong Bui) 1 Feb 2026.pptx (10 slides already captured)
+
+Subject: Chuyên đề Chuyển đổi xanh - Vấn đề pháp lý đối với doanh nghiệp và vai trò của Luật sư
+  Found 2 file(s) directly in subject folder
+
+  (files directly in subject folder)
+    [SKIP] 2025_ESG và luật sư_Nam.pptx (57 slides already captured)
+    [SKIP] EGLG_Chuyển đổi xanh [VIAC]_MrsAnnie_1.pptx (75 slides already captured)
+
+Crawl complete!
+
+Done! Check captures/ folder for results.
