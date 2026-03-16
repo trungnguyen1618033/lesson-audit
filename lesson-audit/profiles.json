@@ -1,0 +1,24 @@
+{
+  "pptx-preview": {
+    "region": null,
+    "nav": null,
+    "key": "right",
+    "present_btn": {
+      "x": 1551,
+      "y": 228
+    }
+  },
+  "pdf-viewer": {
+    "region": {
+      "left": 239,
+      "top": 212,
+      "width": 1309,
+      "height": 954
+    },
+    "nav": {
+      "x": 802,
+      "y": 1134
+    },
+    "key": "right"
+  }
+}
