@@ -8,6 +8,7 @@ import click
 from playwright.sync_api import sync_playwright
 
 import video_capture
+from video_capture import _is_valid_video
 from crawler import (
     get_folder_items,
     get_server_relative_path,
@@ -69,6 +70,86 @@ def _discover_all_mp4(page, folder_url: str) -> list[dict]:
     return sorted(all_mp4.values(), key=lambda x: x["name"])
 
 
+def _has_video_element(video_page) -> bool:
+    for frame in video_page.frames:
+        try:
+            if frame.evaluate("() => !!document.querySelector('video')"):
+                return True
+        except Exception:
+            pass
+    return False
+
+
+def _open_video_by_click(page, folder_url: str, fname: str):
+    page.goto(folder_url, timeout=60000, wait_until="domcontentloaded")
+    wait_for_sharepoint(page)
+    time.sleep(2)
+
+    unique_sub = fname.rsplit("-", 1)[0] if "-" in fname else fname.rsplit(".", 1)[0]
+    rect = page.evaluate("""(sub) => {
+        const buttons = document.querySelectorAll('span[role="button"]');
+        for (const btn of buttons) {
+            const text = (btn.textContent || '').trim();
+            if (text.includes(sub) && text.endsWith('.mp4')) {
+                // Exclude variants like "name 1.mp4", "name 2.mp4" if exact match needed
+                const r = btn.getBoundingClientRect();
+                if (r.width > 0 && r.height > 0)
+                    return { x: r.x + r.width / 2, y: r.y + r.height / 2, text: text };
+            }
+        }
+        return null;
+    }""", unique_sub)
+
+    if not rect:
+        for _ in range(20):
+            page.mouse.wheel(0, 1500)
+            time.sleep(0.8)
+            rect = page.evaluate("""(sub) => {
+                const buttons = document.querySelectorAll('span[role="button"]');
+                for (const btn of buttons) {
+                    const text = (btn.textContent || '').trim();
+                    if (text.includes(sub) && text.endsWith('.mp4')) {
+                        const r = btn.getBoundingClientRect();
+                        if (r.width > 0 && r.height > 0)
+                            return { x: r.x + r.width / 2, y: r.y + r.height / 2, text: text };
+                    }
+                }
+                return null;
+            }""", unique_sub)
+            if rect:
+                break
+
+    if not rect:
+        click.echo(f"    [WARN] Cannot find '{fname}' in folder DOM")
+        return None
+
+    new_pages = []
+    page.context.on("page", lambda p: new_pages.append(p))
+
+    page.mouse.click(rect["x"], rect["y"])
+
+    deadline = time.time() + 15
+    while not new_pages and time.time() < deadline:
+        time.sleep(0.5)
+
+    try:
+        page.context.remove_listener("page", lambda p: None)
+    except Exception:
+        pass
+
+    if not new_pages:
+        click.echo("    [WARN] Click did not open a new tab")
+        return None
+
+    vp = new_pages[0]
+    try:
+        vp.wait_for_load_state("domcontentloaded", timeout=30000)
+    except Exception:
+        pass
+    time.sleep(5)
+    return vp
+
+
 def _open_video_page(page, folder_url: str, fname: str):
     srv_path = get_server_relative_path(folder_url, fname)
     if not srv_path:
@@ -86,7 +167,13 @@ def _open_video_page(page, folder_url: str, fname: str):
     video_page = page.context.new_page()
     video_page.goto(video_url, timeout=60000, wait_until="domcontentloaded")
     time.sleep(5)
-    return video_page
+
+    if _has_video_element(video_page):
+        return video_page
+
+    click.echo("    [WARN] Constructed URL failed (no <video>), falling back to click from folder...")
+    video_page.close()
+    return _open_video_by_click(page, folder_url, fname)
 
 
 def _load_report(report_path: Path) -> dict:
@@ -120,11 +207,12 @@ def main(url, output_dir, cdp, resume, retry_failed, no_debug, max_duration):
     output_dir.mkdir(parents=True, exist_ok=True)
 
     report_path = REPORT_DIR / "batch_report.json"
-    report = _load_report(report_path) if (resume or retry_failed) else {
-        "completed": [], "failed": [], "skipped": [],
-        "started_at": datetime.now().isoformat(),
-    }
-    completed_names = {r["name"] for r in report.get("completed", [])}
+    report = _load_report(report_path)
+    if not resume and not retry_failed:
+        report.setdefault("started_at", datetime.now().isoformat())
+        report.setdefault("completed", [])
+        report.setdefault("failed", [])
+        report.setdefault("skipped", [])
 
     with sync_playwright() as pw:
         try:
@@ -163,14 +251,37 @@ def main(url, output_dir, cdp, resume, retry_failed, no_debug, max_duration):
 
             completed_names = {r["name"] for r in report.get("completed", [])}
             queue = []
+            skipped = 0
+            retry_invalid = 0
             for f in all_mp4:
                 name = f["name"]
                 safe = slugify(Path(name).stem) + ".mp4"
                 out = output_dir / safe
 
-                if name in completed_names and out.exists():
+                if out.exists() and _is_valid_video(out):
+                    if name not in completed_names:
+                        report["completed"].append({
+                            "name": name, "output": str(out),
+                            "size_mb": round(out.stat().st_size / (1024 * 1024), 1),
+                            "at": datetime.now().isoformat(),
+                        })
+                    skipped += 1
                     continue
+
+                if out.exists() and not _is_valid_video(out):
+                    size_kb = out.stat().st_size / 1024
+                    click.echo(f"  [RETRY] {name} (file {size_kb:.0f}KB khong hop le, xoa va chay lai)")
+                    out.unlink()
+                    report["completed"] = [r for r in report["completed"] if r["name"] != name]
+                    report["failed"] = [r for r in report["failed"] if r["name"] != name]
+                    retry_invalid += 1
+
                 queue.append({"item": f, "output": out})
+
+            if skipped:
+                click.echo(f"  Bo qua {skipped} file da co video hop le.")
+            if retry_invalid:
+                click.echo(f"  Chay lai {retry_invalid} file co output khong hop le.")
 
             if not queue:
                 click.echo("Khong con file nao can xu ly trong wave nay.")

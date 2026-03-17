@@ -27,6 +27,28 @@ from urllib.parse import urlparse
 from playwright.sync_api import Page
 
 
+def _is_valid_video(path: Path) -> bool:
+    if not path.exists() or path.stat().st_size < 100_000:
+        return False
+    if not shutil.which("ffprobe"):
+        return True
+    try:
+        r = subprocess.run(
+            ["ffprobe", "-v", "quiet", "-print_format", "json",
+             "-show_format", "-show_streams", str(path)],
+            capture_output=True, text=True, timeout=15,
+        )
+        import json
+        d = json.loads(r.stdout)
+        streams = d.get("streams", [])
+        dur = float(d.get("format", {}).get("duration", 0))
+        if not streams or dur < 1.0:
+            return False
+        return True
+    except Exception:
+        return False
+
+
 # ── Strategy 1: Network interception ─────────────────────────────────────────
 
 def _intercept_video_url(page: Page, video_page_url: str, timeout: float = 15.0) -> Optional[str]:
@@ -187,6 +209,11 @@ def download_video(url: str, output_path: Path, cookies: Optional[dict] = None) 
             print(f"    [WARN] File too small ({file_size} bytes), not a valid video")
             output_path.unlink()
             return False
+        if not _is_valid_video(output_path):
+            size_kb = file_size / 1024
+            print(f"    [WARN] Downloaded file ({size_kb:.0f}KB) is not a valid video (segment only?)")
+            output_path.unlink(missing_ok=True)
+            return False
         size_mb = file_size / (1024 * 1024)
         print(f"    Saved: {output_path} ({size_mb:.1f}MB)")
         return True
@@ -210,6 +237,11 @@ def download_via_playwright(page: Page, url: str, output_path: Path) -> bool:
                 print(f"    [WARN] Response too small ({len(data)} bytes), likely a stream segment, not full file")
                 return False
             output_path.write_bytes(data)
+            if not _is_valid_video(output_path):
+                size_kb = output_path.stat().st_size / 1024
+                print(f"    [WARN] Downloaded file ({size_kb:.0f}KB) is not a valid video (segment only?)")
+                output_path.unlink(missing_ok=True)
+                return False
             size_mb = output_path.stat().st_size / (1024 * 1024)
             print(f"    Saved: {output_path} ({size_mb:.1f}MB)")
             return True
