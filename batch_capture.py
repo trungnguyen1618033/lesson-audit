@@ -20,34 +20,51 @@ REPORT_DIR = Path("captures/_reports")
 DEFAULT_OUTPUT_DIR = Path("captures/recordings")
 
 
-def _discover_all_mp4(page, folder_url: str, max_scroll: int = 30) -> list[dict]:
-    page.goto(folder_url, timeout=60000, wait_until="domcontentloaded")
-    wait_for_sharepoint(page)
-
+def _scroll_collect_mp4(page) -> dict[str, dict]:
     all_mp4: dict[str, dict] = {}
-    stable_count = 0
+    prev_count = -1
+    no_new_rounds = 0
 
-    for i in range(max_scroll):
-        page.mouse.wheel(0, 3000)
-        time.sleep(1.5)
+    for _ in range(80):
         items = get_folder_items(page)
-        mp4s = [it for it in items if it["type"] == "file" and it["name"].lower().endswith(".mp4")]
-        for f in mp4s:
-            all_mp4[f["name"]] = f
+        for it in items:
+            if it["type"] == "file" and it["name"].lower().endswith(".mp4"):
+                all_mp4[it["name"]] = it
 
-        if len(all_mp4) == len(mp4s) and i > 3:
-            stable_count += 1
-            if stable_count >= 3:
+        if len(all_mp4) == prev_count:
+            no_new_rounds += 1
+            if no_new_rounds >= 4:
                 break
         else:
-            stable_count = 0
+            no_new_rounds = 0
+        prev_count = len(all_mp4)
+
+        page.mouse.wheel(0, 2000)
+        time.sleep(1.0)
+
+    return all_mp4
+
+
+def _discover_all_mp4(page, folder_url: str) -> list[dict]:
+    page.goto(folder_url, timeout=60000, wait_until="domcontentloaded")
+    wait_for_sharepoint(page)
+    time.sleep(2)
+
+    click.echo("  Scroll xuong de quet file...")
+    all_mp4 = _scroll_collect_mp4(page)
+    click.echo(f"  Luot 1 (scroll xuong): {len(all_mp4)} MP4")
 
     page.evaluate("window.scrollTo(0, 0)")
-    time.sleep(1)
-    items = get_folder_items(page)
-    for f in items:
-        if f["type"] == "file" and f["name"].lower().endswith(".mp4"):
-            all_mp4[f["name"]] = f
+    time.sleep(1.5)
+    click.echo("  Scroll len lai de quet them...")
+    up_found = _scroll_collect_mp4(page)
+    new_count = 0
+    for name, item in up_found.items():
+        if name not in all_mp4:
+            all_mp4[name] = item
+            new_count += 1
+    if new_count:
+        click.echo(f"  Luot 2 (scroll len): them {new_count} MP4")
 
     return sorted(all_mp4.values(), key=lambda x: x["name"])
 
@@ -123,89 +140,102 @@ def main(url, output_dir, cdp, resume, retry_failed, no_debug, max_duration):
         page = context.pages[0]
         click.echo(f"Connected. {len(context.pages)} tab(s) open.\n")
 
-        click.echo("Dang quet folder de tim tat ca file MP4...")
-        all_mp4 = _discover_all_mp4(page, url)
-        click.echo(f"Tim thay {len(all_mp4)} file MP4 trong folder.\n")
+        total_done = 0
+        wave = 0
 
-        if not all_mp4:
-            click.echo("Khong co file MP4 nao.")
-            raise SystemExit(0)
+        while True:
+            wave += 1
+            click.echo(f"\n--- Wave {wave}: Quet folder de tim file MP4 ---")
+            all_mp4 = _discover_all_mp4(page, url)
+            click.echo(f"Tim thay {len(all_mp4)} file MP4 trong folder.\n")
 
-        if retry_failed:
-            failed_names = {r["name"] for r in report.get("failed", [])}
-            all_mp4 = [f for f in all_mp4 if f["name"] in failed_names]
-            report["failed"] = [r for r in report["failed"] if r["name"] not in {f["name"] for f in all_mp4}]
-            click.echo(f"Retry mode: {len(all_mp4)} file that bai can chay lai.\n")
+            if not all_mp4:
+                if wave == 1:
+                    click.echo("Khong co file MP4 nao.")
+                break
 
-        queue = []
-        for f in all_mp4:
-            name = f["name"]
-            safe = slugify(Path(name).stem) + ".mp4"
-            out = output_dir / safe
+            if retry_failed and wave == 1:
+                failed_names = {r["name"] for r in report.get("failed", [])}
+                all_mp4 = [f for f in all_mp4 if f["name"] in failed_names]
+                report["failed"] = [r for r in report["failed"]
+                                    if r["name"] not in {f["name"] for f in all_mp4}]
+                click.echo(f"Retry mode: {len(all_mp4)} file that bai can chay lai.\n")
 
-            if name in completed_names and out.exists():
-                click.echo(f"  SKIP (da xong): {name}")
-                continue
-            queue.append({"item": f, "output": out})
+            completed_names = {r["name"] for r in report.get("completed", [])}
+            queue = []
+            for f in all_mp4:
+                name = f["name"]
+                safe = slugify(Path(name).stem) + ".mp4"
+                out = output_dir / safe
 
-        click.echo(f"\nSe xu ly {len(queue)} / {len(all_mp4)} video.\n")
-        click.echo("=" * 70)
+                if name in completed_names and out.exists():
+                    continue
+                queue.append({"item": f, "output": out})
 
-        for idx, entry in enumerate(queue):
-            fname = entry["item"]["name"]
-            out = entry["output"]
-            progress = f"[{idx + 1}/{len(queue)}]"
+            if not queue:
+                click.echo("Khong con file nao can xu ly trong wave nay.")
+                break
 
-            click.echo(f"\n{progress} {fname}")
-            click.echo(f"  Output: {out}")
+            click.echo(f"Se xu ly {len(queue)} video (wave {wave}).\n")
+            click.echo("=" * 70)
 
-            video_page = None
-            t0 = time.time()
-            try:
-                video_page = _open_video_page(page, url, fname)
-                if not video_page:
-                    raise RuntimeError("Khong tao duoc video page URL")
+            for idx, entry in enumerate(queue):
+                fname = entry["item"]["name"]
+                out = entry["output"]
+                progress = f"[{total_done + idx + 1}] (wave {wave}: {idx + 1}/{len(queue)})"
 
-                success = video_capture.capture_video_from_page(
-                    video_page=video_page,
-                    output_path=out,
-                    strategy="auto",
-                    max_duration=max_duration,
-                )
+                click.echo(f"\n{progress} {fname}")
+                click.echo(f"  Output: {out}")
 
-                elapsed = time.time() - t0
-                if success and out.exists() and out.stat().st_size > 100_000:
-                    size_mb = out.stat().st_size / (1024 * 1024)
-                    click.echo(f"  OK ({size_mb:.1f}MB, {elapsed:.0f}s)")
-                    report["completed"].append({
-                        "name": fname, "output": str(out),
-                        "size_mb": round(size_mb, 1), "elapsed_s": round(elapsed),
-                        "at": datetime.now().isoformat(),
-                    })
-                else:
-                    click.echo(f"  FAILED (capture returned false, {elapsed:.0f}s)")
+                video_page = None
+                t0 = time.time()
+                try:
+                    video_page = _open_video_page(page, url, fname)
+                    if not video_page:
+                        raise RuntimeError("Khong tao duoc video page URL")
+
+                    success = video_capture.capture_video_from_page(
+                        video_page=video_page,
+                        output_path=out,
+                        strategy="auto",
+                        max_duration=max_duration,
+                    )
+
+                    elapsed = time.time() - t0
+                    if success and out.exists() and out.stat().st_size > 100_000:
+                        size_mb = out.stat().st_size / (1024 * 1024)
+                        click.echo(f"  OK ({size_mb:.1f}MB, {elapsed:.0f}s)")
+                        report["completed"].append({
+                            "name": fname, "output": str(out),
+                            "size_mb": round(size_mb, 1), "elapsed_s": round(elapsed),
+                            "at": datetime.now().isoformat(),
+                        })
+                    else:
+                        click.echo(f"  FAILED (capture returned false, {elapsed:.0f}s)")
+                        report["failed"].append({
+                            "name": fname, "error": "capture returned false",
+                            "elapsed_s": round(elapsed),
+                            "at": datetime.now().isoformat(),
+                        })
+
+                except Exception as e:
+                    elapsed = time.time() - t0
+                    click.echo(f"  FAILED: {e} ({elapsed:.0f}s)")
                     report["failed"].append({
-                        "name": fname, "error": "capture returned false",
+                        "name": fname, "error": str(e)[:200],
                         "elapsed_s": round(elapsed),
                         "at": datetime.now().isoformat(),
                     })
 
-            except Exception as e:
-                elapsed = time.time() - t0
-                click.echo(f"  FAILED: {e} ({elapsed:.0f}s)")
-                report["failed"].append({
-                    "name": fname, "error": str(e)[:200],
-                    "elapsed_s": round(elapsed),
-                    "at": datetime.now().isoformat(),
-                })
+                finally:
+                    if video_page:
+                        try:
+                            video_page.close()
+                        except Exception:
+                            pass
+                    _save_report(report_path, report)
 
-            finally:
-                if video_page:
-                    try:
-                        video_page.close()
-                    except Exception:
-                        pass
-                _save_report(report_path, report)
+            total_done += len(queue)
 
         click.echo("\n" + "=" * 70)
         click.echo("HOAN TAT")
