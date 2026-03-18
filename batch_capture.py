@@ -2,7 +2,7 @@ import json
 import time
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlparse, unquote
 
 import click
 from playwright.sync_api import sync_playwright
@@ -21,51 +21,78 @@ REPORT_DIR = Path("captures/_reports")
 DEFAULT_OUTPUT_DIR = Path("captures/recordings")
 
 
-def _scroll_collect_mp4(page) -> dict[str, dict]:
+def _discover_all_mp4(page, folder_url: str) -> list[dict]:
+    page.goto(folder_url, timeout=60000, wait_until="domcontentloaded")
+    wait_for_sharepoint(page)
+    time.sleep(2)
+
+    parsed = urlparse(folder_url)
+    params = dict(p.split("=", 1) for p in parsed.query.split("&") if "=" in p)
+    folder_path = unquote(params.get("id", ""))
+    if not folder_path:
+        click.echo("  [WARN] Cannot extract folder path from URL, falling back to DOM scroll")
+        return _discover_via_scroll(page)
+
+    click.echo(f"  Querying SharePoint REST API for folder: ...{folder_path[-40:]}")
+    api_result = page.evaluate("""async (folderPath) => {
+        try {
+            const parts = window.location.pathname.split('/');
+            const sitePath = (parts[1] === 'sites' && parts[2])
+                ? '/' + parts[1] + '/' + parts[2] : '';
+            const apiBase = window.location.origin + sitePath;
+            const safePath = folderPath.replace(/'/g, "''");
+            const url = apiBase + "/_api/web/GetFolderByServerRelativeUrl('"
+                + encodeURI(safePath)
+                + "')/Files?$select=Name,Length,TimeLastModified&$top=5000";
+            const resp = await fetch(url, {
+                headers: { Accept: 'application/json;odata=nometadata' }
+            });
+            if (!resp.ok) return { error: 'HTTP ' + resp.status };
+            const data = await resp.json();
+            return { files: data.value || [] };
+        } catch(e) {
+            return { error: String(e) };
+        }
+    }""", folder_path)
+
+    if "error" in api_result:
+        click.echo(f"  [WARN] REST API failed: {api_result['error']}, falling back to DOM scroll")
+        return _discover_via_scroll(page)
+
+    all_files = api_result.get("files", [])
+    mp4_list = [
+        {"name": f["Name"], "type": "file", "href": "", "size": f.get("Length", 0)}
+        for f in all_files
+        if f["Name"].lower().endswith(".mp4")
+    ]
+    click.echo(f"  REST API: {len(mp4_list)} MP4 (of {len(all_files)} total files)")
+    return sorted(mp4_list, key=lambda x: x["name"])
+
+
+def _discover_via_scroll(page) -> list[dict]:
     all_mp4: dict[str, dict] = {}
     prev_count = -1
-    no_new_rounds = 0
+    no_new = 0
 
-    for _ in range(80):
+    for _ in range(120):
         items = get_folder_items(page)
         for it in items:
             if it["type"] == "file" and it["name"].lower().endswith(".mp4"):
                 all_mp4[it["name"]] = it
 
         if len(all_mp4) == prev_count:
-            no_new_rounds += 1
-            if no_new_rounds >= 4:
+            no_new += 1
+            if no_new >= 6:
                 break
         else:
-            no_new_rounds = 0
+            no_new = 0
         prev_count = len(all_mp4)
 
-        page.mouse.wheel(0, 2000)
+        page.evaluate("""() => {
+            const el = document.querySelector('[data-automationid="spgrid"]');
+            if (el) el.scrollTop += 800;
+        }""")
         time.sleep(1.0)
-
-    return all_mp4
-
-
-def _discover_all_mp4(page, folder_url: str) -> list[dict]:
-    page.goto(folder_url, timeout=60000, wait_until="domcontentloaded")
-    wait_for_sharepoint(page)
-    time.sleep(2)
-
-    click.echo("  Scroll xuong de quet file...")
-    all_mp4 = _scroll_collect_mp4(page)
-    click.echo(f"  Luot 1 (scroll xuong): {len(all_mp4)} MP4")
-
-    page.evaluate("window.scrollTo(0, 0)")
-    time.sleep(1.5)
-    click.echo("  Scroll len lai de quet them...")
-    up_found = _scroll_collect_mp4(page)
-    new_count = 0
-    for name, item in up_found.items():
-        if name not in all_mp4:
-            all_mp4[name] = item
-            new_count += 1
-    if new_count:
-        click.echo(f"  Luot 2 (scroll len): them {new_count} MP4")
 
     return sorted(all_mp4.values(), key=lambda x: x["name"])
 
