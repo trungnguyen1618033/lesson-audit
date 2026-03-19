@@ -1,21 +1,18 @@
-uv run python batch_capture.py \
-  --url "https://hvtuphap.sharepoint.com/sites/LUTSHINHPQUCT8TP.HCM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FLUTSHINHPQUCT8TP%2EHCM%2FShared%20Documents%2FGeneral%2FRecordings&viewid=f40f232b%2Dbf1f%2D4cc1%2D940c%2D4282e3e23fe9&FolderCTID=0x01200033734350D7593049A68507234D499E6B" \
-  --no-debug
 
-(node:35644) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
-(Use `node --trace-deprecation ...` to show where the warning was created)
-Connected. 1 tab(s) open.
+--- Wave 703: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
 
-Dang quet folder de tim tat ca file MP4...
-Tim thay 30 file MP4 trong folder.
-
-
-Se xu ly 30 / 30 video.
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 703).
 
 ======================================================================
 
-[1/30] Cuộc họp trong Chung-20250913_081001-Bản ghi cuộc họp 1.mp4
-  Output: captures/recordings/Cuộc_họp_trong_Chung-20250913_081001-Bản_ghi_cuộc_họp_1.mp4
+[764] (wave 703: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
     [1/2] Intercepting video stream URL...
     [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
     [2/2] CDP packet capture...
@@ -24,542 +21,863 @@ Se xu ly 30 / 30 video.
     [CDP] Starting video playback...
     [CDP] Muted + playback rate: 16x
     [CDP] Capturing video packets...
-    [CDP] Video duration: 14400s (240.0 min)
-    [CDP] Captured 4117 segments (550.1MB)
-    [CDP] Duration timeout (14400s / 16x + 30s = 930s)
-
-    [CDP] Capture complete: 4117 segments, 550.1MB
-    [CDP] MSE backup: 2 track(s), 553.6MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Cuộc_họp_trong_Chung-20250913_081001-Bản_ghi_cuộc_họp_1.mp4 (555.0MB)
-  OK (555.0MB, 1024s)
-
-[2/30] Cuộc họp trong Chung-20250913_081001-Bản ghi cuộc họp 2.mp4
-  Output: captures/recordings/Cuộc_họp_trong_Chung-20250913_081001-Bản_ghi_cuộc_họp_2.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 6295s (104.9 min)
-    [CDP] Captured 1992 segments (176.3MB)
-    [CDP] Duration timeout (6295s / 16x + 30s = 423s)
-
-    [CDP] Capture complete: 1992 segments, 176.3MB
-    [CDP] MSE backup: 2 track(s), 175.8MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Cuộc_họp_trong_Chung-20250913_081001-Bản_ghi_cuộc_họp_2.mp4 (176.5MB)
-  OK (176.5MB, 485s)
-
-[3/30] Cuộc họp trong Chung-20250913_081001-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Cuộc_họp_trong_Chung-20250913_081001-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Cuộc_họp_trong_Chung-20250913_081001-Bản_ghi_cuộc_họp.mp4
-    Saved: captures/recordings/Cuộc_họp_trong_Chung-20250913_081001-Bản_ghi_cuộc_họp.mp4 (0.4MB)
-  OK (0.4MB, 8s)
-
-[4/30] Cuộc họp trong Chung-20250914_150233-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Cuộc_họp_trong_Chung-20250914_150233-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Cuộc_họp_trong_Chung-20250914_150233-Bản_ghi_cuộc_họp.mp4
-    Saved: captures/recordings/Cuộc_họp_trong_Chung-20250914_150233-Bản_ghi_cuộc_họp.mp4 (0.2MB)
-  OK (0.2MB, 7s)
-
-[5/30] Học Online Luật sư Hội nhập QT8 HCM-20250809_134055-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250809_134055-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250809_134055-Bản_ghi_cuộc_họp.mp4
-    Saved: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250809_134055-Bản_ghi_cuộc_họp.mp4 (0.4MB)
-  OK (0.4MB, 8s)
-
-[6/30] Học Online Luật sư Hội nhập QT8 HCM-20250809_150358-Meeting Recording.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250809_150358-Meeting_Recording.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 7847s (130.8 min)
-    [CDP] Captured 2558 segments (321.4MB)
-    [CDP] Duration timeout (7847s / 16x + 30s = 520s)
-
-    [CDP] Capture complete: 2558 segments, 321.4MB
-    [CDP] MSE backup: 2 track(s), 325.3MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250809_150358-Meeting_Recording.mp4 (326.0MB)
-  OK (326.0MB, 596s)
-
-[7/30] Học Online Luật sư Hội nhập QT8 HCM-20250905_205003-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250905_205003-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250905_205003-Bản_ghi_cuộc_họp.mp4
-    [WARN] Response too small (784 bytes), likely a stream segment, not full file
-    Downloading video: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250905_205003-Bản_ghi_cuộc_họp.mp4
-    Downloaded: 0.0MB (100%)
-    [WARN] File too small (784 bytes), not a valid video
-    [WARN] Việc tải trực tiếp Video thất bại!
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 2487s (41.5 min)
-    [CDP] Captured 831 segments (67.0MB)
-    [CDP] Video ended at 162s
-
-    [CDP] Capture complete: 831 segments, 67.0MB
-    [CDP] MSE backup: 2 track(s), 67.0MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250905_205003-Bản_ghi_cuộc_họp.mp4 (67.2MB)
-  OK (67.2MB, 186s)
-
-[8/30] Học Online Luật sư Hội nhập QT8 HCM-20250914_080831-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250914_080831-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 12103s (201.7 min)
-    [CDP] Captured 3248 segments (794.6MB)
-    [CDP] Duration timeout (12103s / 16x + 30s = 786s)
-
-    [CDP] Capture complete: 3248 segments, 794.6MB
-    [CDP] MSE backup: 2 track(s), 796.2MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250914_080831-Bản_ghi_cuộc_họp.mp4 (797.2MB)
-  OK (797.2MB, 901s)
-
-[9/30] Học Online Luật sư Hội nhập QT8 HCM-20250914_134113-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250914_134113-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 4848s (80.8 min)
-    [CDP] Captured 1324 segments (406.4MB)
-    [CDP] Duration timeout (4848s / 16x + 30s = 333s)
-
-    [CDP] Capture complete: 1324 segments, 406.4MB
-    [CDP] MSE backup: 2 track(s), 406.4MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20250914_134113-Bản_ghi_cuộc_họp.mp4 (406.8MB)
-  OK (406.8MB, 414s)
-
-[10/30] Học Online Luật sư Hội nhập QT8 HCM-20251004_080326-Meeting Recording 1.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251004_080326-Meeting_Recording_1.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 2048s (34.1 min)
-    [CDP] Captured 709 segments (92.4MB)
-    [CDP] Duration timeout (2048s / 16x + 30s = 158s)
-
-    [CDP] Capture complete: 709 segments, 92.4MB
-    [CDP] MSE backup: 2 track(s), 90.3MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251004_080326-Meeting_Recording_1.mp4 (90.5MB)
-  OK (90.5MB, 211s)
-
-[11/30] Học Online Luật sư Hội nhập QT8 HCM-20251004_080326-Meeting Recording.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251004_080326-Meeting_Recording.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 14400s (240.0 min)
-    [CDP] Captured 3732 segments (1024.9MB)
-    [CDP] Duration timeout (14400s / 16x + 30s = 930s)
-
-    [CDP] Capture complete: 3732 segments, 1024.9MB
-    [CDP] MSE backup: 2 track(s), 1026.2MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251004_080326-Meeting_Recording.mp4 (1027.3MB)
-  OK (1027.3MB, 1065s)
-
-[12/30] Học Online Luật sư Hội nhập QT8 HCM-20251004_140225-Meeting Transcript.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251004_140225-Meeting_Transcript.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 14916s (248.6 min)
-    [CDP] Captured 2513 segments (5.0MB)
-    [CDP] Video ended at 946s
-
-    [CDP] Capture complete: 2513 segments, 5.0MB
-    [CDP] MSE backup: 1 track(s), 5.0MB
-    [CDP] Reassembling from 1 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251004_140225-Meeting_Transcript.mp4 (4.7MB)
-  OK (4.7MB, 994s)
-
-[13/30] Học Online Luật sư Hội nhập QT8 HCM-20251005_080647-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251005_080647-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251005_080647-Bản_ghi_cuộc_họp.mp4
-    Saved: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251005_080647-Bản_ghi_cuộc_họp.mp4 (0.7MB)
-  OK (0.7MB, 8s)
-
-[14/30] Học Online Luật sư Hội nhập QT8 HCM-20251102_074935-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251102_074935-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 14258s (237.6 min)
-    [CDP] Captured 3177 segments (506.4MB)
-    [CDP] Duration timeout (14258s / 16x + 30s = 921s)
-
-    [CDP] Capture complete: 3177 segments, 506.4MB
-    [CDP] MSE backup: 2 track(s), 509.4MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251102_074935-Bản_ghi_cuộc_họp.mp4 (510.4MB)
-  OK (510.4MB, 1011s)
-
-[15/30] Học Online Luật sư Hội nhập QT8 HCM-20251102_132435-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251102_132435-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 13626s (227.1 min)
-    [CDP] Captured 1242 segments (381.9MB)
-    [CDP] No new segments for 15s, assuming complete
-
-    [CDP] Capture complete: 1242 segments, 381.9MB
-    [CDP] MSE backup: 2 track(s), 381.7MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251102_132435-Bản_ghi_cuộc_họp.mp4 (382.1MB)
-  OK (382.1MB, 405s)
-
-[16/30] Học Online Luật sư Hội nhập QT8 HCM-20251109_141700-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251109_141700-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 29s (0.5 min)
-    [CDP] Captured 12 segments (3.1MB)
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
     [CDP] Video ended at 2s
 
-    [CDP] Capture complete: 12 segments, 3.1MB
-    [CDP] MSE backup: 2 track(s), 3.1MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251109_141700-Bản_ghi_cuộc_họp.mp4 (3.1MB)
-  OK (3.1MB, 50s)
-
-[17/30] Học Online Luật sư Hội nhập QT8 HCM-20251109_142351-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251109_142351-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251109_142351-Bản_ghi_cuộc_họp.mp4
-    Saved: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251109_142351-Bản_ghi_cuộc_họp.mp4 (0.3MB)
-  OK (0.3MB, 9s)
-
-[18/30] Học Online Luật sư Hội nhập QT8 HCM-20251129_132723-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251129_132723-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 12223s (203.7 min)
-    [CDP] Captured 3119 segments (855.0MB)
-    [CDP] Duration timeout (12223s / 16x + 30s = 794s)
-
-    [CDP] Capture complete: 3119 segments, 855.0MB
-    [CDP] MSE backup: 2 track(s), 855.2MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251129_132723-Bản_ghi_cuộc_họp.mp4 (856.0MB)
-  OK (856.0MB, 914s)
-
-[19/30] Học Online Luật sư Hội nhập QT8 HCM-20251130_075852-Meeting Transcript.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_075852-Meeting_Transcript.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 582s (9.7 min)
-    [CDP] Captured 124 segments (0.3MB)
-    [CDP] Video ended at 42s
-
-    [CDP] Capture complete: 124 segments, 0.3MB
-    [CDP] MSE backup: 1 track(s), 0.2MB
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
     [CDP] Reassembling from 1 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_075852-Meeting_Transcript.mp4 (0.2MB)
-  OK (0.2MB, 90s)
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
 
-[20/30] Học Online Luật sư Hội nhập QT8 HCM-20251130_080828-Meeting Recording 1.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_080828-Meeting_Recording_1.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_080828-Meeting_Recording_1.mp4
-    Saved: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_080828-Meeting_Recording_1.mp4 (0.6MB)
-  OK (0.6MB, 9s)
+--- Wave 704: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
 
-[21/30] Học Online Luật sư Hội nhập QT8 HCM-20251130_080828-Meeting Recording 2.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_080828-Meeting_Recording_2.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 9316s (155.3 min)
-    [CDP] Captured 2604 segments (438.3MB)
-    [CDP] Duration timeout (9316s / 16x + 30s = 612s)
-
-    [CDP] Capture complete: 2604 segments, 438.3MB
-    [CDP] MSE backup: 2 track(s), 439.5MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_080828-Meeting_Recording_2.mp4 (440.3MB)
-  OK (440.3MB, 696s)
-
-[22/30] Học Online Luật sư Hội nhập QT8 HCM-20251130_080828-Meeting Recording.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_080828-Meeting_Recording.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_080828-Meeting_Recording.mp4
-    Saved: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251130_080828-Meeting_Recording.mp4 (0.7MB)
-  OK (0.7MB, 8s)
-
-[23/30] Học Online Luật sư Hội nhập QT8 HCM-20251213_074909-Bản ghi cuộc họp 1.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp_1.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp_1.mp4
-    [WARN] Response too small (40864 bytes), likely a stream segment, not full file
-    Downloading video: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp_1.mp4
-    Downloaded: 0.0MB (100%)
-    [WARN] File too small (40864 bytes), not a valid video
-    [WARN] Việc tải trực tiếp Video thất bại!
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 14400s (240.0 min)
-    [CDP] Captured 4008 segments (533.6MB)
-    [CDP] Duration timeout (14400s / 16x + 30s = 930s)
-
-    [CDP] Capture complete: 4008 segments, 533.6MB
-    [CDP] MSE backup: 2 track(s), 538.3MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp_1.mp4 (539.7MB)
-  OK (539.7MB, 994s)
-
-[24/30] Học Online Luật sư Hội nhập QT8 HCM-20251213_074909-Bản ghi cuộc họp 2.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp_2.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 8029s (133.8 min)
-    [CDP] Captured 2094 segments (400.5MB)
-    [CDP] Duration timeout (8029s / 16x + 30s = 532s)
-
-    [CDP] Capture complete: 2094 segments, 400.5MB
-    [CDP] MSE backup: 2 track(s), 402.9MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp_2.mp4 (403.6MB)
-  OK (403.6MB, 613s)
-
-[25/30] Học Online Luật sư Hội nhập QT8 HCM-20251213_074909-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp.mp4
-    [WARN] Response too small (78608 bytes), likely a stream segment, not full file
-    Downloading video: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp.mp4
-    Downloaded: 0.1MB (100%)
-    [WARN] File too small (78608 bytes), not a valid video
-    [WARN] Việc tải trực tiếp Video thất bại!
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 14400s (240.0 min)
-    [CDP] Captured 3826 segments (789.2MB)
-    [CDP] Duration timeout (14400s / 16x + 30s = 930s)
-
-    [CDP] Capture complete: 3826 segments, 789.2MB
-    [CDP] MSE backup: 2 track(s), 794.3MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251213_074909-Bản_ghi_cuộc_họp.mp4 (795.5MB)
-  OK (795.5MB, 1015s)
-
-[26/30] Học Online Luật sư Hội nhập QT8 HCM-20251214_132110-Bản ghi cuộc họp 1.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251214_132110-Bản_ghi_cuộc_họp_1.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 14400s (240.0 min)
-    [CDP] Captured 3826 segments (797.4MB)
-    [CDP] Duration timeout (14400s / 16x + 30s = 930s)
-
-    [CDP] Capture complete: 3826 segments, 797.4MB
-    [CDP] MSE backup: 2 track(s), 800.4MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251214_132110-Bản_ghi_cuộc_họp_1.mp4 (801.5MB)
-  OK (801.5MB, 1046s)
-
-[27/30] Học Online Luật sư Hội nhập QT8 HCM-20251214_132110-Bản ghi cuộc họp.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251214_132110-Bản_ghi_cuộc_họp.mp4
-    [1/2] Intercepting video stream URL...
-    [INFO] Tìm thấy luồng Video URL: https://hvtuphap.sharepoint.com/_api_cached/v2.1/drives/b!0XpYs6nUSEes74RuxwTFc4UI04QZ7JlNvBMKhKr5lS...
-    Downloading video via browser: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251214_132110-Bản_ghi_cuộc_họp.mp4
-    [WARN] Response too small (20256 bytes), likely a stream segment, not full file
-    Downloading video: Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251214_132110-Bản_ghi_cuộc_họp.mp4
-    Downloaded: 0.0MB (100%)
-    [WARN] File too small (20256 bytes), not a valid video
-    [WARN] Việc tải trực tiếp Video thất bại!
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 1274s (21.2 min)
-    [CDP] Captured 427 segments (4.3MB)
-    [CDP] Video ended at 102s
-
-    [CDP] Capture complete: 427 segments, 4.3MB
-    [CDP] MSE backup: 2 track(s), 4.3MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20251214_132110-Bản_ghi_cuộc_họp.mp4 (4.5MB)
-  OK (4.5MB, 120s)
-
-[28/30] Học Online Luật sư Hội nhập QT8 HCM-20260110_085235-Meeting Recording 1.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20260110_085235-Meeting_Recording_1.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 14400s (240.0 min)
-    [CDP] Captured 1299 segments (78.4MB)
-    [CDP] No new segments for 15s, assuming complete
-
-    [CDP] Capture complete: 1299 segments, 78.4MB
-    [CDP] MSE backup: 2 track(s), 76.7MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20260110_085235-Meeting_Recording_1.mp4 (77.1MB)
-  OK (77.1MB, 391s)
-
-[29/30] Học Online Luật sư Hội nhập QT8 HCM-20260110_085235-Meeting Recording 2.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20260110_085235-Meeting_Recording_2.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 5082s (84.7 min)
-    [CDP] Captured 1489 segments (132.8MB)
-    [CDP] Duration timeout (5082s / 16x + 30s = 348s)
-
-    [CDP] Capture complete: 1489 segments, 132.8MB
-    [CDP] MSE backup: 2 track(s), 132.2MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20260110_085235-Meeting_Recording_2.mp4 (132.7MB)
-  OK (132.7MB, 405s)
-
-[30/30] Học Online Luật sư Hội nhập QT8 HCM-20260111_083700-Meeting Recording.mp4
-  Output: captures/recordings/Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20260111_083700-Meeting_Recording.mp4
-    [1/2] Intercepting video stream URL...
-    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
-    [2/2] CDP packet capture...
-    [CDP] Setting up network packet capture...
-    [CDP] Reloading page to capture init segments...
-    [CDP] Starting video playback...
-    [CDP] Muted + playback rate: 16x
-    [CDP] Capturing video packets...
-    [CDP] Video duration: 9968s (166.1 min)
-    [CDP] Captured 2840 segments (684.0MB)
-    [CDP] Duration timeout (9968s / 16x + 30s = 653s)
-
-    [CDP] Capture complete: 2840 segments, 684.0MB
-    [CDP] MSE backup: 2 track(s), 680.2MB
-    [CDP] Reassembling from 2 MSE track(s)...
-    [CDP] Reassembled (MSE): Học_Online_Luật_sư_Hội_nhập_QT8_HCM-20260111_083700-Meeting_Recording.mp4 (681.1MB)
-  OK (681.1MB, 758s)
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 704).
 
 ======================================================================
-HOAN TAT
-  Thanh cong: 30
-  That bai:   0
 
-  Report: captures/_reports/batch_report.json
+[765] (wave 704: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
 
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
 
-  
+--- Wave 705: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 705).
+
+======================================================================
+
+[766] (wave 705: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 51s)
+
+--- Wave 706: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 706).
+
+======================================================================
+
+[767] (wave 706: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 50s)
+
+--- Wave 707: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 707).
+
+======================================================================
+
+[768] (wave 707: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 708: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 708).
+
+======================================================================
+
+[769] (wave 708: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 709: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 709).
+
+======================================================================
+
+[770] (wave 709: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 710: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 710).
+
+======================================================================
+
+[771] (wave 710: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 52s)
+
+--- Wave 711: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 711).
+
+======================================================================
+
+[772] (wave 711: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 712: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 712).
+
+======================================================================
+
+[773] (wave 712: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 50s)
+
+--- Wave 713: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 713).
+
+======================================================================
+
+[774] (wave 713: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 51s)
+
+--- Wave 714: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 714).
+
+======================================================================
+
+[775] (wave 714: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 715: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 715).
+
+======================================================================
+
+[776] (wave 715: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 716: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 716).
+
+======================================================================
+
+[777] (wave 716: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 50s)
+
+--- Wave 717: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 717).
+
+======================================================================
+
+[778] (wave 717: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 718: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 718).
+
+======================================================================
+
+[779] (wave 718: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 719: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 719).
+
+======================================================================
+
+[780] (wave 719: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 720: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 720).
+
+======================================================================
+
+[781] (wave 720: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 721: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 721).
+
+======================================================================
+
+[782] (wave 721: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 50s)
+
+--- Wave 722: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 722).
+
+======================================================================
+
+[783] (wave 722: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 723: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 723).
+
+======================================================================
+
+[784] (wave 723: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 724: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 724).
+
+======================================================================
+
+[785] (wave 724: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 50s)
+
+--- Wave 725: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 725).
+
+======================================================================
+
+[786] (wave 725: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 726: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 726).
+
+======================================================================
+
+[787] (wave 726: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 50s)
+
+--- Wave 727: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 727).
+
+======================================================================
+
+[788] (wave 727: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 728: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 728).
+
+======================================================================
+
+[789] (wave 728: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 49s)
+
+--- Wave 729: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 729).
+
+======================================================================
+
+[790] (wave 729: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+    [WARN] Không bắt được bất kỳ gói tin luồng Video URL nào
+    [2/2] CDP packet capture...
+    [CDP] Setting up network packet capture...
+    [CDP] Reloading page to capture init segments...
+    [CDP] Starting video playback...
+    [CDP] Muted + playback rate: 16x
+    [CDP] Capturing video packets...
+    [CDP] Video duration: 30s (0.5 min)
+    [CDP] Captured 6 segments (0.0MB)
+    [CDP] Video ended at 2s
+
+    [CDP] Capture complete: 6 segments, 0.0MB
+    [CDP] MSE backup: 1 track(s), 0.0MB
+    [CDP] Reassembling from 1 MSE track(s)...
+    [CDP] Reassembled (MSE): HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4 (0.0MB)
+  FAILED (capture returned false, 50s)
+
+--- Wave 730: Quet folder de tim file MP4 ---
+  Querying SharePoint REST API for folder: ....HCM/Shared Documents/General/Recordings
+  REST API: 85 MP4 (of 85 total files)
+Tim thay 85 file MP4 trong folder.
+
+  [RETRY] HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4 (file 34KB khong hop le, xoa va chay lai)
+  Bo qua 84 file da co video hop le.
+  Chay lai 1 file co output khong hop le.
+Se xu ly 1 video (wave 730).
+
+======================================================================
+
+[791] (wave 730: 1/1) HỌC TRỰC TUYẾN LUẬT SƯ HỘI NHẬP QUỐC TẾ 8 TẠI TP.HCM-20250727_132812-Meeting Transcript.mp4
+  Output: captures/recordings/HỌC_TRỰC_TUYẾN_LUẬT_SƯ_HỘI_NHẬP_QUỐC_TẾ_8_TẠI_TP.HCM-20250727_132812-Meeting_Transcript.mp4
+    [1/2] Intercepting video stream URL...
+^C
+Aborted!
+(capture) (base) ➜ capture (main) ✗ 
